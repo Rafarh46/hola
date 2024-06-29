@@ -33,7 +33,7 @@
   "prettier": "prettier --check --ignore-path .gitignore .",
   
     
-  "prepare": "husky install",
+ 
   
     
   "prettier:fix": "prettier --write --ignore-path .gitignore ."
@@ -86,9 +86,7 @@
   
     
   "formik": "^2.4.5",
-  
-    
-  "husky": "^9.0.11",
+
   
     
   "isotope-layout": "^3.0.6",
