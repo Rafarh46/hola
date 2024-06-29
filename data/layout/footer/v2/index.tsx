@@ -50,9 +50,31 @@ export const footerSectionData: FooterSectionProps = {
       },
     ],
   },
-  columnTwo: {},
+  columnTwo: {
+    title: '',
+    links: [
+      {
+        label: '',
+        href: '/',
+        openNewTab: false,
+      },
+    ],
+  },
 
-  columnThree: {},
+  columnThree: {
+    title: '',
+    blogs: [
+      {
+        image: {
+          src: '',
+          alt: '',
+        },
+        title: '',
+        date: '',
+        slug: '',
+      },
+    ],
+  },
   columnFour: {
     title: 'Contactanos',
     phoneNumber: '6623380627',
@@ -61,5 +83,12 @@ export const footerSectionData: FooterSectionProps = {
   },
   footerBottom: {
     copyrightText: '© SDIH 2024 | All Rights Reserved',
+    links: [
+      {
+        label: '',
+        href: '/',
+        openNewTab: false,
+      },
+    ],
   },
 };
