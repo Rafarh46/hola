@@ -27,8 +27,7 @@ export const footerSectionData: FooterSectionProps = {
         label: 'Software Development',
         href: '/',
         openNewTab: false,
-      },
-    ],
+      },]
   },
   columnTwo: {
     title: 'Dirección',
@@ -36,8 +35,7 @@ export const footerSectionData: FooterSectionProps = {
     mails: ['debbie.baker@example.com', 'nevaeh.simm@example.com'],
     phoneNumbers: ['6623380627'],
   },
-  columnThree: {
-    title: '',
+  columnThree: {title: '',
     blogs: [
       {
         image: {
@@ -57,8 +55,7 @@ export const footerSectionData: FooterSectionProps = {
         date: '',
         slug: '',
       },
-    ],
-  },
+    ],},
   footerBottom: {
     copyrightText: '© SDIH 2024 | All Rights Reserved',
     links: [
