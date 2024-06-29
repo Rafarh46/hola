@@ -21,21 +21,20 @@ export function ContactSection() {
           <Image
             src={image.src}
             alt={image.alt}
-            fill
-            className="object-cover"
-            sizes={`(min-width: ${BREAKPOINTS.md}) 60vw, 100vw`}
+            layout="fill"
+            objectFit="cover"
             placeholder="blur"
             blurDataURL={blurDataUrl}
           />
         </div>
 
         <Container>
-          <div className="ml-auto md:w-1/2">
-            <div className="relative z-[2] rounded-5 bg-white p-10 shadow-1 dark:bg-accent-700 lg:p-[280px]">
-              <div className="absolute right-20 top-5">
+          <div className="relative z-[2] md:w-full">
+            <div className="rounded-5 bg-white p-10 shadow-1 dark:bg-accent-700 md:p-16">
+              <div className="absolute right-10 top-5 md:top-0 md:right-20">
                 <SectionHeading {...sectionHeading} />
               </div>
-              <div className="absolute bottom-5 left-20 w-full bg-black bg-opacity-0 p-4 text-left text-white">
+              <div className="absolute bottom-5 left-0 md:left-20 w-full bg-black bg-opacity-0 p-4 text-left text-white">
                 <ul className="text-lg font-bold">
                   <li>- Sonora</li>
                   <li>- Chihuahua</li>
