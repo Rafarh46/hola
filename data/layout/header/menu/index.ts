@@ -1,6 +1,5 @@
 import { HeaderProps } from '@/src/layout/header/desktop/v1';
 
-
 export const menuItemsProps: HeaderProps['menuItems'] = [
   {
     label: 'Inicio',
@@ -15,9 +14,8 @@ export const menuItemsProps: HeaderProps['menuItems'] = [
     href: '/project',
   },
   {
-        label: 'Portafolio',
-        href: '/INFOSDIH.pdf',
-      
+    label: 'Portafolio',
+    href: '/INFOSDIH.pdf',
   },
   {
     label: 'Contacto',

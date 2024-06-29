@@ -1,7 +1,6 @@
 import { Container } from '@/src/components/container';
 import { SectionHeading } from '@/src/components/section-heading';
 import { SectionHeadingWithoutStylingProps } from '@/src/components/section-heading/interface';
-import { Form } from './form';
 import { cn } from '@/src/utils/shadcn';
 import { FaEnvelope, FaPhone } from 'react-icons/fa6';
 import { FaMapMarkerAlt } from 'react-icons/fa';
@@ -50,7 +49,6 @@ export function ContactSection() {
             <div className="mb-30px">
               <SectionHeading {...sectionHeading} />
             </div>
-            
           </div>
           <div className="md:w-1/2 lg:w-2/6">
             <div className="mb-30px">

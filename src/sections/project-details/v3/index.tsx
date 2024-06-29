@@ -2,7 +2,6 @@ import { Container } from '@/src/components/container';
 import { CustomLink } from '@/src/components/custom-link';
 import { cn } from '@/src/utils/shadcn';
 import Image from 'next/image';
-import { FaCheckCircle } from 'react-icons/fa';
 import {
   FaArrowLeftLong,
   FaArrowRightLong,
@@ -106,18 +105,28 @@ export function ProjectDetailsSection() {
           </div>
 
           <p>
-          En SDI'H, entendemos que una instalación confiable de sistemas contra incendios depende de un buen diseño que optimice recursos y asegure la eficiencia en la entrega del trabajo. Con más de 20 años de experiencia y un equipo altamente capacitado, estamos preparados para abordar grandes proyectos en todo el país, habiendo ganado el reconocimiento y la confianza de nuestros clientes.
-
-
+            En SDIH, entendemos que una instalación confiable de sistemas contra
+            incendios depende de un buen diseño que optimice recursos y asegure
+            la eficiencia en la entrega del trabajo. Con más de 20 años de
+            experiencia y un equipo altamente capacitado, estamos preparados
+            para abordar grandes proyectos en todo el país, habiendo ganado el
+            reconocimiento y la confianza de nuestros clientes.
           </p>
           <p>
-          Nuestra experiencia nos permite ofrecer un servicio de instalación de alta calidad que cumple con los estándares más exigentes de seguridad y eficiencia. Nos enorgullecemos de nuestros métodos precisos y eficientes, asegurando que cada sistema instalado funcione perfectamente y proporcione la máxima protección contra incendios.
-
-
+            Nuestra experiencia nos permite ofrecer un servicio de instalación
+            de alta calidad que cumple con los estándares más exigentes de
+            seguridad y eficiencia. Nos enorgullecemos de nuestros métodos
+            precisos y eficientes, asegurando que cada sistema instalado
+            funcione perfectamente y proporcione la máxima protección contra
+            incendios.
           </p>
-          
+
           <p>
-          Para garantizar un mantenimiento eficaz y confiable, nuestro departamento de Servicios se especializa en la inspección, prueba y mantenimiento de sistemas contra incendios. Nos aseguramos de que cada sistema siga funcionando de manera óptima, ofreciendo tranquilidad y seguridad a nuestros clientes a lo largo del tiempo.
+            Para garantizar un mantenimiento eficaz y confiable, nuestro
+            departamento de Servicios se especializa en la inspección, prueba y
+            mantenimiento de sistemas contra incendios. Nos aseguramos de que
+            cada sistema siga funcionando de manera óptima, ofreciendo
+            tranquilidad y seguridad a nuestros clientes a lo largo del tiempo.
           </p>
 
           {/* Pagination Area  */}
@@ -132,13 +141,9 @@ export function ProjectDetailsSection() {
                 <span className="transition-colors duration-300 group-hover:text-primary">
                   <FaArrowLeftLong />
                 </span>
-                <p className="text-base font-bold uppercase leading-[2] tracking-wide">
-                  
-                </p>
+                <p className="text-base font-bold uppercase leading-[2] tracking-wide"></p>
               </div>
-              <h3 className="text-md font-medium leading-[1.5]">
-                {' '}
-              </h3>
+              <h3 className="text-md font-medium leading-[1.5]"> </h3>
             </CustomLink>
 
             {/* Next  */}
@@ -147,16 +152,12 @@ export function ProjectDetailsSection() {
               className="group grid max-w-[255px] gap-3 text-right text-accent-700 dark:text-white max-md:self-end"
             >
               <div className="flex items-center justify-end gap-2.5">
-                <p className="text-base font-bold uppercase leading-[2] tracking-wide">
-                  
-                </p>
+                <p className="text-base font-bold uppercase leading-[2] tracking-wide"></p>
                 <span className="transition-colors duration-300 group-hover:text-primary">
                   <FaArrowRightLong />
                 </span>
               </div>
-              <h3 className="text-md font-medium leading-[1.5]">
-                {' '}
-              </h3>
+              <h3 className="text-md font-medium leading-[1.5]"> </h3>
             </CustomLink>
           </div>
         </div>

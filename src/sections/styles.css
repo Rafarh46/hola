@@ -1,5 +1,4 @@
 /* styles.css */
 .red-filter {
-    filter: sepia(1) saturate(10000%) hue-rotate(-50deg);
-  }
-  
+  filter: sepia(1) saturate(10000%) hue-rotate(-50deg);
+}

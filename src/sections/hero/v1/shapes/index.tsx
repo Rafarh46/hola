@@ -1,7 +1,6 @@
 import { cn } from '@/src/utils/shadcn';
 import Image from 'next/image';
 
-
 const commonClasses = cn('pointer-events-none absolute z-1');
 
 export function Shapes() {

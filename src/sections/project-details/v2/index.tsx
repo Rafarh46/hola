@@ -6,12 +6,9 @@ import { FaCheckCircle } from 'react-icons/fa';
 import {
   FaArrowLeftLong,
   FaArrowRightLong,
-  FaCalendarDays,
-  FaDollarSign,
   FaRegFolderOpen,
-  FaRegUser,
   FaChalkboardUser,
-  FaCompassDrafting , 
+  FaCompassDrafting,
 } from 'react-icons/fa6';
 
 const commonImageClasses = cn('rounded-5 object-cover object-center');
@@ -43,7 +40,6 @@ const projectOverviewList: OverviewProps[] = [
     subHeading: '',
     heading: 'Tanque de Agua',
   },
-  
 ];
 
 export function ProjectDetailsSection() {
@@ -109,20 +105,28 @@ export function ProjectDetailsSection() {
           </div>
 
           <p>
-          En SDI'H, nos especializamos en el diseño, instalación y mantenimiento de sistemas hidráulicos integrales para la protección contra incendios. Nuestros servicios abarcan desde la instalación de bombas de agua de alta capacidad hasta la configuración de redes de hidrantes estratégicamente ubicados. Utilizamos rociadores automáticos y sistemas de diluvio que se activan rápidamente en caso de incendio, asegurando una respuesta efectiva y controlada. Además, implementamos tanques de agua dedicados para garantizar un suministro constante y adecuado de agua en situaciones de emergencia, cumpliendo con las normativas nacionales e internacionales para asegurar la máxima protección y seguridad.
-
-
-
+            En SDIH, nos especializamos en el diseño, instalación y
+            mantenimiento de sistemas hidráulicos integrales para la protección
+            contra incendios. Nuestros servicios abarcan desde la instalación de
+            bombas de agua de alta capacidad hasta la configuración de redes de
+            hidrantes estratégicamente ubicados. Utilizamos rociadores
+            automáticos y sistemas de diluvio que se activan rápidamente en caso
+            de incendio, asegurando una respuesta efectiva y controlada. Además,
+            implementamos tanques de agua dedicados para garantizar un
+            suministro constante y adecuado de agua en situaciones de
+            emergencia, cumpliendo con las normativas nacionales e
+            internacionales para asegurar la máxima protección y seguridad.
           </p>
           <p>
-          Nuestro equipo de ingenieros y técnicos altamente capacitados se encarga de cada detalle del sistema hidráulico, desde el diseño inicial hasta la instalación y puesta en marcha. Realizamos pruebas rigurosas de eficiencia y mantenemos los sistemas de manera preventiva para asegurar su operatividad óptima en todo momento. Con más de 14 años de experiencia en el sector, hemos trabajado con diversos sectores industriales, comerciales y residenciales, proporcionando soluciones personalizadas y confiables que se adaptan a las necesidades específicas de cada cliente y proyecto.
-
-
-
-
-
-
-
+            Nuestro equipo de ingenieros y técnicos altamente capacitados se
+            encarga de cada detalle del sistema hidráulico, desde el diseño
+            inicial hasta la instalación y puesta en marcha. Realizamos pruebas
+            rigurosas de eficiencia y mantenemos los sistemas de manera
+            preventiva para asegurar su operatividad óptima en todo momento. Con
+            más de 14 años de experiencia en el sector, hemos trabajado con
+            diversos sectores industriales, comerciales y residenciales,
+            proporcionando soluciones personalizadas y confiables que se adaptan
+            a las necesidades específicas de cada cliente y proyecto.
           </p>
           <div className="my-3 grid grid-cols-1 gap-5 md:grid-cols-2 lg:gap-8 2xl:grid-cols-3">
             <div className="grid gap-3">
@@ -131,27 +135,50 @@ export function ProjectDetailsSection() {
                   <FaCheckCircle />
                 </span>
                 <h3 className="flex-1 text-md font-bold text-accent-700 dark:text-white">
-                Bombas de agua
-
+                  Bombas de agua
                 </h3>
               </div>
               <p>
-              En SDI'H, ofrecemos bombas de agua robustas y eficientes diseñadas específicamente para sistemas contra incendios. Estas bombas son fundamentales para garantizar un suministro constante y adecuado de agua a presión en caso de emergencia, asegurando una respuesta rápida y efectiva ante incendios. Nuestras bombas están fabricadas con materiales resistentes y tecnología avanzada para proporcionar fiabilidad y durabilidad en condiciones exigentes.              </p>
-              <p></p><p></p><p></p><p></p><p></p>
+                En SDIH, ofrecemos bombas de agua robustas y eficientes
+                diseñadas específicamente para sistemas contra incendios. Estas
+                bombas son fundamentales para garantizar un suministro constante
+                y adecuado de agua a presión en caso de emergencia, asegurando
+                una respuesta rápida y efectiva ante incendios. Nuestras bombas
+                están fabricadas con materiales resistentes y tecnología
+                avanzada para proporcionar fiabilidad y durabilidad en
+                condiciones exigentes.{' '}
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
             </div>
-            
+
             <div className="grid gap-3">
               <div className="flex items-center gap-4">
                 <span className="flex-none text-base/[1] text-primary">
                   <FaCheckCircle />
                 </span>
                 <h3 className="flex-1 text-md font-bold text-accent-700 dark:text-white">
-                Red de Hidrantes
+                  Red de Hidrantes
                 </h3>
               </div>
               <p>
-              Implementamos redes de hidrantes estratégicamente distribuidos en instalaciones comerciales, industriales y residenciales para facilitar el acceso rápido a agua en caso de incendio. Nuestras redes de hidrantes están diseñadas conforme a normativas internacionales y locales, asegurando la disponibilidad de puntos de conexión seguros y eficientes para los equipos de bomberos y personal de emergencia.              </p>
-              <p></p><p></p><p></p><p></p><p></p><p></p>
+                Implementamos redes de hidrantes estratégicamente distribuidos
+                en instalaciones comerciales, industriales y residenciales para
+                facilitar el acceso rápido a agua en caso de incendio. Nuestras
+                redes de hidrantes están diseñadas conforme a normativas
+                internacionales y locales, asegurando la disponibilidad de
+                puntos de conexión seguros y eficientes para los equipos de
+                bomberos y personal de emergencia.{' '}
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
             </div>
             <div className="grid gap-3">
               <div className="flex items-center gap-4">
@@ -159,17 +186,27 @@ export function ProjectDetailsSection() {
                   <FaCheckCircle />
                 </span>
                 <h3 className="flex-1 text-md font-bold text-accent-700 dark:text-white">
-                Rociadores y Sistemas de diluvio:
-
+                  Rociadores y Sistemas de diluvio:
                 </h3>
               </div>
               <p>
-              Ofrecemos sistemas avanzados tanto de rociadores automáticos como de diluvio para la supresión efectiva de incendios. Nuestros rociadores automáticos son esenciales para la detección y control inicial de incendios en áreas específicas de edificaciones, activándose automáticamente para dispersar agua uniformemente y extinguir rápidamente el fuego, minimizando daños y protegiendo vidas y propiedades. Por otro lado, nuestros sistemas de diluvio están diseñados para descargas rápidas y masivas de agua en áreas de alto riesgo, activándose automáticamente ante la detección de incendios para crear una barrera efectiva que protege activos críticos y estructuras importantes.              </p>
+                Ofrecemos sistemas avanzados tanto de rociadores automáticos
+                como de diluvio para la supresión efectiva de incendios.
+                Nuestros rociadores automáticos son esenciales para la detección
+                y control inicial de incendios en áreas específicas de
+                edificaciones, activándose automáticamente para dispersar agua
+                uniformemente y extinguir rápidamente el fuego, minimizando
+                daños y protegiendo vidas y propiedades. Por otro lado, nuestros
+                sistemas de diluvio están diseñados para descargas rápidas y
+                masivas de agua en áreas de alto riesgo, activándose
+                automáticamente ante la detección de incendios para crear una
+                barrera efectiva que protege activos críticos y estructuras
+                importantes.{' '}
+              </p>
             </div>
           </div>
 
-          <p>
-          </p>
+          <p></p>
 
           {/* Pagination Area  */}
           <div className="mb-2 mt-5 h-px bg-accent-900/20 dark:bg-white"></div>
@@ -183,13 +220,9 @@ export function ProjectDetailsSection() {
                 <span className="transition-colors duration-300 group-hover:text-primary">
                   <FaArrowLeftLong />
                 </span>
-                <p className="text-base font-bold uppercase leading-[2] tracking-wide">
-                  
-                </p>
+                <p className="text-base font-bold uppercase leading-[2] tracking-wide"></p>
               </div>
-              <h3 className="text-md font-medium leading-[1.5]">
-                {' '}
-              </h3>
+              <h3 className="text-md font-medium leading-[1.5]"> </h3>
             </CustomLink>
 
             {/* Next  */}
@@ -198,16 +231,12 @@ export function ProjectDetailsSection() {
               className="group grid max-w-[255px] gap-3 text-right text-accent-700 dark:text-white max-md:self-end"
             >
               <div className="flex items-center justify-end gap-2.5">
-                <p className="text-base font-bold uppercase leading-[2] tracking-wide">
-                  
-                </p>
+                <p className="text-base font-bold uppercase leading-[2] tracking-wide"></p>
                 <span className="transition-colors duration-300 group-hover:text-primary">
                   <FaArrowRightLong />
                 </span>
               </div>
-              <h3 className="text-md font-medium leading-[1.5]">
-                {' '}
-              </h3>
+              <h3 className="text-md font-medium leading-[1.5]"> </h3>
             </CustomLink>
           </div>
         </div>

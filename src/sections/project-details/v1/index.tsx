@@ -6,8 +6,6 @@ import { FaCheckCircle } from 'react-icons/fa';
 import {
   FaArrowLeftLong,
   FaArrowRightLong,
-  FaCalendarDays,
-  FaDollarSign,
   FaRegFolderOpen,
   FaRegUser,
 } from 'react-icons/fa6';
@@ -103,13 +101,29 @@ export function ProjectDetailsSection() {
                 </div>
               )}
             </div>
-          </div> 
+          </div>
 
           <p>
-          En SDI'H, ofrecemos soluciones avanzadas en sistemas de alarmas y detección para garantizar la seguridad y protección de sus instalaciones. Nos especializamos en el diseño, instalación y mantenimiento de sistemas de alarmas contra incendios y detección de humo, asegurando una respuesta rápida y eficiente ante cualquier emergencia. Adaptamos nuestros sistemas a las necesidades específicas de cada cliente, proporcionando una cobertura completa y eficiente desde el diseño hasta la instalación y mantenimiento.
+            En SDIH, ofrecemos soluciones avanzadas en sistemas de alarmas y
+            detección para garantizar la seguridad y protección de sus
+            instalaciones. Nos especializamos en el diseño, instalación y
+            mantenimiento de sistemas de alarmas contra incendios y detección de
+            humo, asegurando una respuesta rápida y eficiente ante cualquier
+            emergencia. Adaptamos nuestros sistemas a las necesidades
+            específicas de cada cliente, proporcionando una cobertura completa y
+            eficiente desde el diseño hasta la instalación y mantenimiento.
           </p>
           <p>
-          Además, nuestros servicios incluyen la actualización de sistemas existentes para que cumplan con las últimas normativas y tecnologías, así como la implementación de soluciones de monitoreo remoto para una supervisión constante. También ofrecemos capacitación al personal para el uso correcto de los sistemas, garantizando una respuesta adecuada en caso de emergencia. Con nuestro enfoque en el cumplimiento de normativas estrictas como NFPA y UL, brindamos a nuestros clientes la tranquilidad de saber que sus bienes y personal están protegidos con la tecnología más avanzada y confiable en alarmas y detección.
+            Además, nuestros servicios incluyen la actualización de sistemas
+            existentes para que cumplan con las últimas normativas y
+            tecnologías, así como la implementación de soluciones de monitoreo
+            remoto para una supervisión constante. También ofrecemos
+            capacitación al personal para el uso correcto de los sistemas,
+            garantizando una respuesta adecuada en caso de emergencia. Con
+            nuestro enfoque en el cumplimiento de normativas estrictas como NFPA
+            y UL, brindamos a nuestros clientes la tranquilidad de saber que sus
+            bienes y personal están protegidos con la tecnología más avanzada y
+            confiable en alarmas y detección.
           </p>
           <div className="my-3 grid grid-cols-1 gap-5 md:grid-cols-2 lg:gap-8 2xl:grid-cols-3">
             <div className="grid gap-3">
@@ -118,17 +132,25 @@ export function ProjectDetailsSection() {
                   <FaCheckCircle />
                 </span>
                 <h3 className="flex-1 text-md font-bold text-accent-700 dark:text-white">
-                Sirenas
+                  Sirenas
                 </h3>
               </div>
               <p>
-              
-
-
-Ofrecemos sirenas de alta calidad diseñadas para proporcionar alertas claras y efectivas en situaciones de emergencia. Nuestras sirenas destacan por su alta audibilidad, diversidad de tonos, volúmenes ajustables, diseño robusto que garantiza durabilidad incluso en condiciones adversas. Compatibles con una amplia variedad de sistemas de alarma contra incendios, nuestras sirenas son fáciles de instalar y eficientes energéticamente. Además, cumplen con las normativas y estándares internacionales, asegurando una respuesta rápida en caso de emergencia para proteger tanto a las personas como a la propiedad.
-</p>
-<p></p><p></p><p></p><p></p>
-
+                Ofrecemos sirenas de alta calidad diseñadas para proporcionar
+                alertas claras y efectivas en situaciones de emergencia.
+                Nuestras sirenas destacan por su alta audibilidad, diversidad de
+                tonos, volúmenes ajustables, diseño robusto que garantiza
+                durabilidad incluso en condiciones adversas. Compatibles con una
+                amplia variedad de sistemas de alarma contra incendios, nuestras
+                sirenas son fáciles de instalar y eficientes energéticamente.
+                Además, cumplen con las normativas y estándares internacionales,
+                asegurando una respuesta rápida en caso de emergencia para
+                proteger tanto a las personas como a la propiedad.
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
             </div>
             <div className="grid gap-3">
               <div className="flex items-center gap-4">
@@ -140,8 +162,19 @@ Ofrecemos sirenas de alta calidad diseñadas para proporcionar alertas claras y 
                 </h3>
               </div>
               <p>
-              En SDI'H, ofrecemos detectores de última generación diseñados para proporcionar una detección precisa y temprana de humo y fuego. Nuestros detectores emplean tecnología avanzada, como detectores fotoeléctricos e inteligentes, que aseguran una respuesta rápida y confiable ante cualquier señal de incendio. Son fáciles de integrar con sistemas de alarma contra incendios existentes y están diseñados para una instalación simple en techos y paredes, garantizando su eficiencia y durabilidad en diversas condiciones ambientales. Cumplen con normativas internacionales para asegurar el cumplimiento normativo y proporcionan notificaciones precisas que facilitan una acción inmediata, protegiendo así la vida y la propiedad en cualquier entorno.
-
+                En SDIH, ofrecemos detectores de última generación diseñados
+                para proporcionar una detección precisa y temprana de humo y
+                fuego. Nuestros detectores emplean tecnología avanzada, como
+                detectores fotoeléctricos e inteligentes, que aseguran una
+                respuesta rápida y confiable ante cualquier señal de incendio.
+                Son fáciles de integrar con sistemas de alarma contra incendios
+                existentes y están diseñados para una instalación simple en
+                techos y paredes, garantizando su eficiencia y durabilidad en
+                diversas condiciones ambientales. Cumplen con normativas
+                internacionales para asegurar el cumplimiento normativo y
+                proporcionan notificaciones precisas que facilitan una acción
+                inmediata, protegiendo así la vida y la propiedad en cualquier
+                entorno.
               </p>
             </div>
             <div className="grid gap-3">
@@ -154,15 +187,29 @@ Ofrecemos sirenas de alta calidad diseñadas para proporcionar alertas claras y 
                 </h3>
               </div>
               <p>
-              En SDI'H, ofrecemos dispositivos pull de alta fiabilidad diseñados para activar rápidamente alarmas de incendio y sistemas de extinción en caso de emergencia. Nuestros pulls están construidos para ser accesibles y fáciles de utilizar en situaciones críticas, asegurando una respuesta inmediata ante cualquier amenaza de fuego. Cumplen con las normativas y estándares internacionales para garantizar su eficacia y confiabilidad, proporcionando una medida crucial en la protección de vidas y activos contra incendios en todo tipo de instalaciones.</p>
-              <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
-
+                En SDIH, ofrecemos dispositivos pull de alta fiabilidad
+                diseñados para activar rápidamente alarmas de incendio y
+                sistemas de extinción en caso de emergencia. Nuestros pulls
+                están construidos para ser accesibles y fáciles de utilizar en
+                situaciones críticas, asegurando una respuesta inmediata ante
+                cualquier amenaza de fuego. Cumplen con las normativas y
+                estándares internacionales para garantizar su eficacia y
+                confiabilidad, proporcionando una medida crucial en la
+                protección de vidas y activos contra incendios en todo tipo de
+                instalaciones.
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
             </div>
           </div>
 
-          <p>
-            
-          </p>
+          <p></p>
 
           {/* Pagination Area  */}
           <div className="mb-2 mt-5 h-px bg-accent-900/20 dark:bg-white"></div>
@@ -176,13 +223,9 @@ Ofrecemos sirenas de alta calidad diseñadas para proporcionar alertas claras y 
                 <span className="transition-colors duration-300 group-hover:text-primary">
                   <FaArrowLeftLong />
                 </span>
-                <p className="text-base font-bold uppercase leading-[2] tracking-wide">
-                  
-                </p>
+                <p className="text-base font-bold uppercase leading-[2] tracking-wide"></p>
               </div>
-              <h3 className="text-md font-medium leading-[1.5]">
-                {' '}
-              </h3>
+              <h3 className="text-md font-medium leading-[1.5]"> </h3>
             </CustomLink>
 
             {/* Next  */}
@@ -191,16 +234,12 @@ Ofrecemos sirenas de alta calidad diseñadas para proporcionar alertas claras y 
               className="group grid max-w-[255px] gap-3 text-right text-accent-700 dark:text-white max-md:self-end"
             >
               <div className="flex items-center justify-end gap-2.5">
-                <p className="text-base font-bold uppercase leading-[2] tracking-wide">
-                  
-                </p>
+                <p className="text-base font-bold uppercase leading-[2] tracking-wide"></p>
                 <span className="transition-colors duration-300 group-hover:text-primary">
                   <FaArrowRightLong />
                 </span>
               </div>
-              <h3 className="text-md font-medium leading-[1.5]">
-                {' '}
-              </h3>
+              <h3 className="text-md font-medium leading-[1.5]"> </h3>
             </CustomLink>
           </div>
         </div>

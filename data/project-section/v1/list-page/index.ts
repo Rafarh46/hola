@@ -34,6 +34,5 @@ export const projectSectionData: ProjectSectionProps = {
       title: 'MANTENIMIENTO',
       description: '',
     },
-    
   ],
 };

@@ -79,7 +79,7 @@ export function Hero() {
                     )}
                   >
                     <div className="space-y-6 md:space-y-8">
-                      <h1 className="font-secondary text-1xl font-semibold uppercase leading-[1.1] md:text-2xl lg:text-3xl">
+                      <h1 className="text-1xl font-secondary font-semibold uppercase leading-[1.1] md:text-2xl lg:text-3xl">
                         {item.title}
                       </h1>
                       <Button asChild className={cn('rounded-full')}>

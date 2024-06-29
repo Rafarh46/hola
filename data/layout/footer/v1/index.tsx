@@ -21,7 +21,13 @@ export const footerSectionData: FooterSectionProps = {
     ],
   },
   columnOne: {
-  
+    title: 'Get Free Link',
+    links: [
+      {
+        label: 'Software Development',
+        href: '/',
+        openNewTab: false,
+      },]
   },
   columnTwo: {
     title: 'Dirección',
@@ -29,11 +35,35 @@ export const footerSectionData: FooterSectionProps = {
     mails: ['debbie.baker@example.com', 'nevaeh.simm@example.com'],
     phoneNumbers: ['6623380627'],
   },
-  columnThree: {
-
-  },
+  columnThree: {title: '',
+    blogs: [
+      {
+        image: {
+          src: '',
+          alt: '',
+        },
+        title: '',
+        date: '',
+        slug: '',
+      },
+      {
+        image: {
+          src: '',
+          alt: '',
+        },
+        title: '',
+        date: '',
+        slug: '',
+      },
+    ],},
   footerBottom: {
     copyrightText: '© SDIH 2024 | All Rights Reserved',
-    
+    links: [
+      {
+        label: '',
+        href: '/',
+        openNewTab: false,
+      },
+    ],
   },
 };

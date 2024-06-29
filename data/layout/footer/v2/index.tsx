@@ -48,16 +48,11 @@ export const footerSectionData: FooterSectionProps = {
         href: '/portfolio',
         openNewTab: false,
       },
-    
     ],
   },
-  columnTwo: {
-    
-  },
+  columnTwo: {},
 
-  columnThree: {
-    
-  },
+  columnThree: {},
   columnFour: {
     title: 'Contactanos',
     phoneNumber: '6623380627',
@@ -66,6 +61,5 @@ export const footerSectionData: FooterSectionProps = {
   },
   footerBottom: {
     copyrightText: '© SDIH 2024 | All Rights Reserved',
-    
   },
 };

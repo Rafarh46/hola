@@ -1,11 +1,9 @@
 import { LinkProps, blurDataUrl } from '@/src/common-types';
-import { Button } from '@/src/components/button';
 import { Container } from '@/src/components/container';
 import { CustomLink } from '@/src/components/custom-link';
-import { TextInput } from '@/src/components/inputs/text-input';
 import { cn } from '@/src/utils/shadcn';
 import Image from 'next/image';
-import { FaCircleCheck, FaPhone } from 'react-icons/fa6';
+import { FaPhone } from 'react-icons/fa6';
 
 const services: LinkProps[] = [
   {
@@ -51,9 +49,7 @@ export function ServiceDetailsSection() {
           <div className="grid gap-10 md:sticky md:top-[76px] lg:top-[133px] 2xl:gap-[60px]">
             {/* Service list  */}
             <div className="grid gap-6 rounded-5 bg-accent-100 px-10 py-30px dark:bg-accent-700">
-              <h3 className="h3 text-accent-700 dark:text-white">
-                Valores
-              </h3>
+              <h3 className="h3 text-accent-700 dark:text-white">Valores</h3>
               {services && services.length > 0 && (
                 <ul className="grid gap-3" aria-label="service list">
                   {services.map((service, index) => (
@@ -63,20 +59,19 @@ export function ServiceDetailsSection() {
                         className="flex items-center justify-between gap-4 transition-colors duration-300 hover:text-primary"
                       >
                         <span className="flex-1">{service.label}</span>
-                        
-                          <line
-                            x1="4.37114e-08"
-                            y1="3.5"
-                            x2={20}
-                            y2="3.5"
-                            stroke="currentColor"
-                          />
-                          <path
-                            d="M19.5 1.68487L21.2965 3.5L19.5 5.31513L19.5 1.68487Z"
-                            fill="white"
-                            stroke="currentColor"
-                          />
-                        
+
+                        <line
+                          x1="4.37114e-08"
+                          y1="3.5"
+                          x2={20}
+                          y2="3.5"
+                          stroke="currentColor"
+                        />
+                        <path
+                          d="M19.5 1.68487L21.2965 3.5L19.5 5.31513L19.5 1.68487Z"
+                          fill="white"
+                          stroke="currentColor"
+                        />
                       </CustomLink>
                     </li>
                   ))}
@@ -116,16 +111,13 @@ export function ServiceDetailsSection() {
             </div>
 
             {/* Search box  */}
-            
 
             {/* Testimonial    */}
-            
           </div>
 
           {/* Main Content  */}
           <div className="grid gap-6">
             <div className="relative mb-5 overflow-hidden rounded-5">
-              
               <span className="absolute left-30px top-30px rounded-[0_8px_30px_8px] bg-white p-2.5 text-primary">
                 <svg
                   width="40"
@@ -145,39 +137,53 @@ export function ServiceDetailsSection() {
               </span>
             </div>
             <p>
-            En SDI'H, cada proyecto es una oportunidad para demostrar nuestro compromiso con la excelencia y la seguridad. Nuestra misión, visión y valores son los cimientos sobre los cuales construimos nuestras acciones y decisiones diarias. Estos principios no solo definen quiénes somos como empresa, sino que también orientan nuestra dedicación hacia la innovación, la integridad y el servicio al cliente. A través de ellos, nos aseguramos de ofrecer soluciones de calidad, siempre enfocados en proteger lo que más importa y en superar las expectativas de nuestros clientes. Te invitamos a descubrir los fundamentos que nos inspiran y nos impulsan a seguir liderando en el ámbito de la protección contra incendios y seguridad.
+              En SDIH, cada proyecto es una oportunidad para demostrar nuestro
+              compromiso con la excelencia y la seguridad. Nuestra misión,
+              visión y valores son los cimientos sobre los cuales construimos
+              nuestras acciones y decisiones diarias. Estos principios no solo
+              definen quiénes somos como empresa, sino que también orientan
+              nuestra dedicación hacia la innovación, la integridad y el
+              servicio al cliente. A través de ellos, nos aseguramos de ofrecer
+              soluciones de calidad, siempre enfocados en proteger lo que más
+              importa y en superar las expectativas de nuestros clientes. Te
+              invitamos a descubrir los fundamentos que nos inspiran y nos
+              impulsan a seguir liderando en el ámbito de la protección contra
+              incendios y seguridad.
             </p>
-            
-            
-
 
             <div className="mt-2.5 grid grid-cols-[1fr_260px] gap-6">
               <div className="grid items-baseline gap-6 lg:gap-9">
                 <div>
                   <h3 className="text-md font-bold text-accent-700 dark:text-white">
-                  Misión
+                    Misión
                   </h3>
                   <p>
-                  En Sistemas Detección de Incendio (SDI'H), nos dedicamos a ofrecer soluciones
-integrales para la protección contra incendios. Nuestro objetivo es brindar un servicio eficaz
-y oportuno que cubra las necesidades de nuestros clientes en la detección y combate de
-incendios, incluyendo el suministro de materiales, instalación de equipos, diseño de
-sistemas, asesoría, y servicios de mantenimiento preventivo y correctivo. Con 14 años de
-experiencia en el ramo, trabajamos en sectores como la minería, industria, hospitalario,
-hotelero, edificios de oficinas y comerciales, comprometidos siempre con la seguridad y
-satisfacción de nuestros clientes.
+                    En Sistemas Detección de Incendio (SDIH), nos dedicamos a
+                    ofrecer soluciones integrales para la protección contra
+                    incendios. Nuestro objetivo es brindar un servicio eficaz y
+                    oportuno que cubra las necesidades de nuestros clientes en
+                    la detección y combate de incendios, incluyendo el
+                    suministro de materiales, instalación de equipos, diseño de
+                    sistemas, asesoría, y servicios de mantenimiento preventivo
+                    y correctivo. Con 14 años de experiencia en el ramo,
+                    trabajamos en sectores como la minería, industria,
+                    hospitalario, hotelero, edificios de oficinas y comerciales,
+                    comprometidos siempre con la seguridad y satisfacción de
+                    nuestros clientes.
                   </p>
                 </div>
                 <div>
                   <h3 className="text-md font-bold text-accent-700 dark:text-white">
-                  Visión
+                    Visión
                   </h3>
                   <p>
-                  Aspiramos a ser reconocidos por nuestra innovación, calidad y excelencia en el servicio,
-expandiendo nuestra presencia en nuevos sectores y adoptando tecnologías de vanguardia
-para ofrecer soluciones aún más efectivas y eficientes. Nuestro objetivo es ser el socio
-preferido para la protección contra incendios, garantizando la seguridad y tranquilidad de
-nuestros clientes.
+                    Aspiramos a ser reconocidos por nuestra innovación, calidad
+                    y excelencia en el servicio, expandiendo nuestra presencia
+                    en nuevos sectores y adoptando tecnologías de vanguardia
+                    para ofrecer soluciones aún más efectivas y eficientes.
+                    Nuestro objetivo es ser el socio preferido para la
+                    protección contra incendios, garantizando la seguridad y
+                    tranquilidad de nuestros clientes.
                   </p>
                 </div>
               </div>

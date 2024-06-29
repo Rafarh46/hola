@@ -1,10 +1,4 @@
 import { TeamSectionProps } from '@/src/sections/team/v1';
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaPinterest,
-  FaTwitter,
-} from 'react-icons/fa6';
 
 export const teamSectionData: TeamSectionProps = {
   sectionHeading: {
@@ -18,8 +12,7 @@ export const teamSectionData: TeamSectionProps = {
         src: '/assets/images/team/people-1.png',
         alt: 'DETECTORS BEAM',
       },
-      socials: [
-      ],
+      socials: [],
       name: 'DETECTORS BEAM',
       about: '',
     },
@@ -29,8 +22,7 @@ export const teamSectionData: TeamSectionProps = {
         src: '/assets/images/team/people-2.png',
         alt: 'DETECTORES HUMO',
       },
-      socials: [
-      ],
+      socials: [],
       name: 'DETECTORES HUMO',
       about: '(CONVENCIONAL E INTELIGENTE)',
     },
@@ -40,9 +32,7 @@ export const teamSectionData: TeamSectionProps = {
         src: '/assets/images/team/people-3.png',
         alt: 'ALARMAS PULL',
       },
-      socials: [
-        
-      ],
+      socials: [],
       name: 'ALARMAS PULL',
       about: '',
     },

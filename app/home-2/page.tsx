@@ -2,7 +2,6 @@ import { serviceSectionData } from '@/data/service-section/v2/home-page-2';
 import { Footer } from '@/src/layout/footer/v2';
 import { MainHeader } from '@/src/layout/header';
 import { AboutSection } from '@/src/sections/about/v2';
-import { BlogSection } from '@/src/sections/blog/v2';
 import { CtaSection } from '@/src/sections/cta/v2';
 import { HeroSection } from '@/src/sections/hero/v2';
 import { ProjectSection } from '@/src/sections/project/v2';
@@ -34,7 +33,6 @@ export default function Page() {
       <TeamSection />
       <TestimonialSection />
       <StatisticsSection />
-      <BlogSection />
       <Footer className="dark:bg-accent-900" footerTopClassName="dark:!pt-0" />
     </>
   );

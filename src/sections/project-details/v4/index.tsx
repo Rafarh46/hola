@@ -6,7 +6,6 @@ import { FaCheckCircle } from 'react-icons/fa';
 import {
   FaArrowLeftLong,
   FaArrowRightLong,
-  FaCalendarDays,
   FaDollarSign,
   FaRegFolderOpen,
   FaRegUser,
@@ -36,7 +35,6 @@ const projectOverviewList: OverviewProps[] = [
     subHeading: '',
     heading: 'Pruebas',
   },
-
 ];
 
 export function ProjectDetailsSection() {
@@ -102,12 +100,19 @@ export function ProjectDetailsSection() {
           </div>
 
           <p>
-          En SDI'H, ofrecemos un servicio de mantenimiento confiable y actualizado conforme a las normas más recientes para la inspección, prueba y mantenimiento de sistemas contra incendios y seguridad. Nuestro personal está capacitado continuamente para garantizar que los servicios se realicen bajo los estándares más estrictos, brindando la confianza y seguridad que nuestros clientes requieren.
-
-
+            En SDIH, ofrecemos un servicio de mantenimiento confiable y
+            actualizado conforme a las normas más recientes para la inspección,
+            prueba y mantenimiento de sistemas contra incendios y seguridad.
+            Nuestro personal está capacitado continuamente para garantizar que
+            los servicios se realicen bajo los estándares más estrictos,
+            brindando la confianza y seguridad que nuestros clientes requieren.
           </p>
           <p>
-          Contamos con un riguroso control de calidad que supervisa cada etapa del proceso, asegurando resultados óptimos y consistentes. Esto, junto con nuestro compromiso con la excelencia, nos permite ofrecer un servicio que no solo cumple, sino que supera las expectativas de nuestros clientes.
+            Contamos con un riguroso control de calidad que supervisa cada etapa
+            del proceso, asegurando resultados óptimos y consistentes. Esto,
+            junto con nuestro compromiso con la excelencia, nos permite ofrecer
+            un servicio que no solo cumple, sino que supera las expectativas de
+            nuestros clientes.
           </p>
           <div className="my-3 grid grid-cols-1 gap-5 md:grid-cols-2 lg:gap-8 2xl:grid-cols-3">
             <div className="grid gap-3">
@@ -116,11 +121,21 @@ export function ProjectDetailsSection() {
                   <FaCheckCircle />
                 </span>
                 <h3 className="flex-1 text-md font-bold text-accent-700 dark:text-white">
-                Servicios correctivos
+                  Servicios correctivos
                 </h3>
               </div>
               <p>
-              El mantenimiento correctivo se enfoca en reparar componentes dañados del sistema para asegurar su funcionamiento óptimo. Un adecuado mantenimiento preventivo reduce la necesidad de intervenciones correctivas, que incluyen la corrección de fallas a tierra, sustitución de dispositivos de alarma y detección dañados, reparación de fugas, diagnóstico y solución de fallas en tableros de control, reparación de bombas y motores contra incendios (diésel y eléctricos), pruebas de eficiencia y validación de sistemas instalados. Estos servicios garantizan la eficiencia y confiabilidad continuas de sus sistemas de protección contra incendios.
+                El mantenimiento correctivo se enfoca en reparar componentes
+                dañados del sistema para asegurar su funcionamiento óptimo. Un
+                adecuado mantenimiento preventivo reduce la necesidad de
+                intervenciones correctivas, que incluyen la corrección de fallas
+                a tierra, sustitución de dispositivos de alarma y detección
+                dañados, reparación de fugas, diagnóstico y solución de fallas
+                en tableros de control, reparación de bombas y motores contra
+                incendios (diésel y eléctricos), pruebas de eficiencia y
+                validación de sistemas instalados. Estos servicios garantizan la
+                eficiencia y confiabilidad continuas de sus sistemas de
+                protección contra incendios.
               </p>
             </div>
             <div className="grid gap-3">
@@ -129,16 +144,24 @@ export function ProjectDetailsSection() {
                   <FaCheckCircle />
                 </span>
                 <h3 className="flex-1 text-md font-bold text-accent-700 dark:text-white">
-                Servicios Preventivos
+                  Servicios Preventivos
                 </h3>
               </div>
               <p>
-              entendemos la importancia del mantenimiento preventivo para garantizar el óptimo funcionamiento de los sistemas contra incendios. Nuestro servicio de mantenimiento preventivo incluye inspecciones regulares, pruebas de funcionamiento y ajustes según las normativas NFPA y FM. Nos aseguramos de que todos los componentes, desde alarmas hasta rociadores y sistemas hidráulicos, estén en condiciones óptimas para responder eficazmente ante una emergencia. Con un enfoque proactivo, nuestro equipo técnico capacitado identifica y corrige posibles fallas antes de que se conviertan en problemas mayores, proporcionando tranquilidad y seguridad a nuestros clientes.              </p>
-             
-              
-             
-              <p>
+                entendemos la importancia del mantenimiento preventivo para
+                garantizar el óptimo funcionamiento de los sistemas contra
+                incendios. Nuestro servicio de mantenimiento preventivo incluye
+                inspecciones regulares, pruebas de funcionamiento y ajustes
+                según las normativas NFPA y FM. Nos aseguramos de que todos los
+                componentes, desde alarmas hasta rociadores y sistemas
+                hidráulicos, estén en condiciones óptimas para responder
+                eficazmente ante una emergencia. Con un enfoque proactivo,
+                nuestro equipo técnico capacitado identifica y corrige posibles
+                fallas antes de que se conviertan en problemas mayores,
+                proporcionando tranquilidad y seguridad a nuestros clientes.{' '}
               </p>
+
+              <p></p>
             </div>
             <div className="grid gap-3">
               <div className="flex items-center gap-4">
@@ -146,36 +169,29 @@ export function ProjectDetailsSection() {
                   <FaCheckCircle />
                 </span>
                 <h3 className="flex-1 text-md font-bold text-accent-700 dark:text-white">
-                Validación y Ejecución
+                  Validación y Ejecución
                 </h3>
               </div>
               <p>
-              Nos encargamos de validar y asegurar la correcta ejecución de los servicios de inspección, prueba y mantenimiento de los sistemas contra incendios. Nos aseguramos de que estos servicios se realicen puntualmente y en conformidad con las normativas aplicables, como NFPA, FM y NOM.
+                Nos encargamos de validar y asegurar la correcta ejecución de
+                los servicios de inspección, prueba y mantenimiento de los
+                sistemas contra incendios. Nos aseguramos de que estos servicios
+                se realicen puntualmente y en conformidad con las normativas
+                aplicables, como NFPA, FM y NOM.
               </p>
-              <p>
-              </p>
-              <p>
-              </p>
-              <p>
-              </p>
-              <p>
-              </p>
-              <p>
-              </p>
-              <p>
-              </p>
-              <p>
-              </p>
-              <p>
-              </p>
-              <p>
-              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
             </div>
           </div>
 
-          <p>
-            
-          </p>
+          <p></p>
 
           {/* Pagination Area  */}
           <div className="mb-2 mt-5 h-px bg-accent-900/20 dark:bg-white"></div>
@@ -189,13 +205,9 @@ export function ProjectDetailsSection() {
                 <span className="transition-colors duration-300 group-hover:text-primary">
                   <FaArrowLeftLong />
                 </span>
-                <p className="text-base font-bold uppercase leading-[2] tracking-wide">
-                  
-                </p>
+                <p className="text-base font-bold uppercase leading-[2] tracking-wide"></p>
               </div>
-              <h3 className="text-md font-medium leading-[1.5]">
-              {' '}
-              </h3>
+              <h3 className="text-md font-medium leading-[1.5]"> </h3>
             </CustomLink>
 
             {/* Next  */}
@@ -204,16 +216,12 @@ export function ProjectDetailsSection() {
               className="group grid max-w-[255px] gap-3 text-right text-accent-700 dark:text-white max-md:self-end"
             >
               <div className="flex items-center justify-end gap-2.5">
-                <p className="text-base font-bold uppercase leading-[2] tracking-wide">
-                  
-                </p>
+                <p className="text-base font-bold uppercase leading-[2] tracking-wide"></p>
                 <span className="transition-colors duration-300 group-hover:text-primary">
                   <FaArrowRightLong />
                 </span>
               </div>
-              <h3 className="text-md font-medium leading-[1.5]">
-                {' '}
-              </h3>
+              <h3 className="text-md font-medium leading-[1.5]"> </h3>
             </CustomLink>
           </div>
         </div>

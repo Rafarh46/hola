@@ -58,6 +58,5 @@ export const testimonialSectionData: TestimonialSectionProps = {
         'La seguridad de nuestros pacientes y personal es nuestra máxima prioridad. SDIH ha demostrado ser un socio invaluable, ofreciendo soluciones de protección contra incendios que son tanto efectivas como confiables.',
       rating: 5,
     },
-
   ],
 };

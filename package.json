@@ -1,12 +1,14 @@
 {
+  "build": "rm -rf build && tsc",
   "name": "techlab-react",
   "version": "2.0",
   "private": true,
   "scripts": {
+    "lint": "eslint .",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "tscnpm": "tsc",
     "tsc": "npx tsc",
     "tsc-watch": "npx tsc --w",
     "prettier": "prettier --check --ignore-path .gitignore .",

@@ -5,7 +5,6 @@ import { SectionHeading } from '@/src/components/section-heading';
 import { SectionHeadingWithoutStylingProps } from '@/src/components/section-heading/interface';
 import { BREAKPOINTS } from '@/src/themes/interface';
 import Image from 'next/image';
-import { Form } from './form';
 
 export interface ContactSectionProps {
   sectionHeading: SectionHeadingWithoutStylingProps;
@@ -28,29 +27,26 @@ export function ContactSection() {
             placeholder="blur"
             blurDataURL={blurDataUrl}
           />
-
-
         </div>
 
         <Container>
           <div className="ml-auto md:w-1/2">
             <div className="relative z-[2] rounded-5 bg-white p-10 shadow-1 dark:bg-accent-700 lg:p-[280px]">
-            <div className="absolute top-5 right-20">
-              
+              <div className="absolute right-20 top-5">
                 <SectionHeading {...sectionHeading} />
               </div>
-              <div className="absolute bottom-5 left-20 w-full bg-black bg-opacity-0 text-white p-4 text-left">
-            <ul className="text-lg font-bold">
-              <li>- Sonora</li>
-              <li>- Chihuahua</li>
-              <li>- Guanajuato</li>
-              <li>- Guadalajara</li>
-              <li>- Monterrey</li>
-              <li>- Baja California</li>
-              <li>- Sinaloa</li>
-              <li>- Guerrero</li>
-            </ul>
-          </div>
+              <div className="absolute bottom-5 left-20 w-full bg-black bg-opacity-0 p-4 text-left text-white">
+                <ul className="text-lg font-bold">
+                  <li>- Sonora</li>
+                  <li>- Chihuahua</li>
+                  <li>- Guanajuato</li>
+                  <li>- Guadalajara</li>
+                  <li>- Monterrey</li>
+                  <li>- Baja California</li>
+                  <li>- Sinaloa</li>
+                  <li>- Guerrero</li>
+                </ul>
+              </div>
             </div>
           </div>
         </Container>

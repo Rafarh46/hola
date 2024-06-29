@@ -1,1 +1,12 @@
-{"c":["app/contact/page","app/page","app/services/single/page","app/services/page","app/about/page","webpack"],"r":[],"m":[]}
+{
+  "c": [
+    "app/contact/page",
+    "app/page",
+    "app/services/single/page",
+    "app/services/page",
+    "app/about/page",
+    "webpack"
+  ],
+  "r": [],
+  "m": []
+}
