@@ -37,24 +37,7 @@ export const footerSectionData: FooterSectionProps = {
   },
   columnThree: {title: '',
     blogs: [
-      {
-        image: {
-          src: '',
-          alt: '',
-        },
-        title: '',
-        date: '',
-        slug: '',
-      },
-      {
-        image: {
-          src: '',
-          alt: '',
-        },
-        title: '',
-        date: '',
-        slug: '',
-      },
+    
     ],},
   footerBottom: {
     copyrightText: '© SDIH 2024 | All Rights Reserved',
