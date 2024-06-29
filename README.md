@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Techlab | IT Solutions And Services Nextjs Template
 
 #### Commit Prefixes
@@ -14,3 +15,6 @@
 - `ci` – continuous integration related
 - `build` – changes that affect the build system or external dependencies
 - `revert` – reverts a previous commit
+=======
+# sdih
+>>>>>>> 9fb31e28e6095f6a2cb51ae215f36004c5c8e4b4
