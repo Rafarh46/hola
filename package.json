@@ -12,8 +12,7 @@
     "tsc": "npx tsc",
     "tsc-watch": "npx tsc --w",
     "prettier": "prettier --check --ignore-path .gitignore .",
-    "prettier:fix": "prettier --write --ignore-path .gitignore .",
-    "prepare": "husky install"
+    "prettier:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.1.2",
@@ -59,7 +58,6 @@
     "clsx": "^2.0.0",
     "eslint": "^8.43.0",
     "eslint-config-prettier": "^8.8.0",
-    "husky": "^8.0.3",
     "postcss": "^8.4.27",
     "postcss-nesting": "^12.0.0",
     "prettier": "^3.0.0",
