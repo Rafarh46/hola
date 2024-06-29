@@ -21,10 +21,10 @@ export const footerSectionData: FooterSectionProps = {
     ],
   },
   columnOne: {
-    title: 'Get Free Link',
+    title: '',
     links: [
       {
-        label: 'Software Development',
+        label: '',
         href: '/',
         openNewTab: false,
       },]
