@@ -3,7 +3,6 @@ import { ImageProps, blurDataUrl } from '@/src/common-types';
 import { Container } from '@/src/components/container';
 import { SectionHeading } from '@/src/components/section-heading';
 import { SectionHeadingWithoutStylingProps } from '@/src/components/section-heading/interface';
-import { BREAKPOINTS } from '@/src/themes/interface';
 import Image from 'next/image';
 
 export interface ContactSectionProps {
