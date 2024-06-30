@@ -44,10 +44,6 @@ export function ContactSection() {
         <div className="flex flex-col gap-[50px] md:flex-row">
           <div className="md:w-1/2 lg:w-2/3">
             <div className="mb-30px">
-            </div>
-          </div>
-          <div className="md:w-1/2 lg:w-2/6">
-            <div className="mb-30px">
               <SectionHeading {...contactInfo.sectionHeading} />
             </div>
             <ul aria-label="addresses" className="grid gap-5">
