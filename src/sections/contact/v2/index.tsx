@@ -6,7 +6,7 @@ import { FaEnvelope, FaPhone } from 'react-icons/fa6';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 
 export interface ContactSectionProps {
-  sectionHeading: SectionHeadingWithoutStylingProps;
+
   contactInfo: {
     sectionHeading: SectionHeadingWithoutStylingProps;
     location: string;
@@ -16,9 +16,6 @@ export interface ContactSectionProps {
 }
 
 export const contactSectionData: ContactSectionProps = {
-  sectionHeading: {
-    title: 'UBICACIÓN',
-  },
   contactInfo: {
     sectionHeading: {
       title: 'CONTÁCTANOS ',
@@ -40,14 +37,13 @@ const addressTitleClasses = cn(
 );
 
 export function ContactSection() {
-  const { sectionHeading, contactInfo } = contactSectionData;
+  const { contactInfo } = contactSectionData;
   return (
     <section className="section-padding-primary">
       <Container>
         <div className="flex flex-col gap-[50px] md:flex-row">
           <div className="md:w-1/2 lg:w-2/3">
             <div className="mb-30px">
-              <SectionHeading {...sectionHeading} />
             </div>
           </div>
           <div className="md:w-1/2 lg:w-2/6">
