@@ -36,10 +36,10 @@ export function ContactSection() {
               <div className="mb-30px">
                 <SectionHeading {...sectionHeading} />
               </div>
-              <Form />
             </div>
           </div>
         </Container>
+        <Form />
       </div>
     </section>
   );
