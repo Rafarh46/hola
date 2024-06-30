@@ -2,7 +2,12 @@
 
 import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
+import Image from 'next/image';
 import styles from './video-player.module.css';
+import {
+  ImageProps,
+  blurDataUrl as fallbackBlurDataUrl,
+} from '@/src/common-types';
 import { cn } from '@/src/utils/shadcn';
 import { ClassValue } from 'clsx';
 
@@ -18,7 +23,7 @@ export interface VideoPlayerProps {
   /**
    * Video thumbnail image info
    */
-  thumbnail:{
+  thumbnail: ImageProps & {
     blurDataURL?: string;
     className?: string;
   };
@@ -40,7 +45,7 @@ export const VideoPlayer = ({
   palyBtnClassName,
 }: VideoPlayerProps) => {
   const [showModal, setShowModal] = useState(false);
-  const { blurDataURL, className } = thumbnail;
+  const { src, alt, width, height, blurDataURL, className } = thumbnail;
 
   useEffect(() => {
     const handleEsc = (event: KeyboardEvent) => {
@@ -105,36 +110,21 @@ export const VideoPlayer = ({
             'absolute inset-0 z-[1] hidden'
           )}
         ></span>
-
+        <Image
+          className={cn('block object-cover', className)}
+          src={src}
+          alt={alt}
+          width={width}
+          height={height}
+          placeholder={'blur'}
+          blurDataURL={
+            blurDataURL !== undefined ? blurDataURL : fallbackBlurDataUrl
+          }
+          sizes="100vw"
+        />
 
         {/* Play btn  */}
-        <span
-          className={cn(
-            cursorStyle,
-            'absolute left-1/2 top-1/2 z-10 inline-block -translate-x-1/2 -translate-y-1/2'
-          )}
-        >
-          <span
-            className={cn(
-              iconStyle,
-              'text-[2.5rem] md:text-[6.25rem]',
-              palyBtnClassName
-            )}
-          >
-            <svg
-              width={16}
-              height={18}
-              viewBox="0 0 16 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.82617 0.546509L15.0762 7.42151C15.623 7.77307 15.9746 8.39807 15.9746 9.02307C15.9746 9.68713 15.623 10.3121 15.0762 10.6246L3.82617 17.4996C3.24023 17.8512 2.49805 17.8903 1.91211 17.5387C1.32617 17.2262 0.974609 16.6012 0.974609 15.8981V2.14807C0.974609 1.48401 1.32617 0.859009 1.91211 0.546509C2.49805 0.194946 3.24023 0.194946 3.82617 0.546509Z"
-                fill="white"
-              />
-            </svg>
-          </span>
-        </span>
+
       </div>
 
       {/* modal  */}

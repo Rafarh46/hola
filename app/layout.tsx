@@ -5,7 +5,7 @@ import { AOSInit } from '@/src/utils/aos';
 import { ScrollToTopButton } from '@/src/components/scroll-to-top';
 import { cn } from '@/src/utils/shadcn';
 import { Toaster } from 'sonner';
-import { ModeToggle } from '@/src/components/mode-toggle';
+
 
 interface Props {
   children: React.ReactNode;
