@@ -9,7 +9,7 @@ import { Hero } from '@/src/sections/hero/v1';
 import { ProjectSection } from '@/src/sections/project/v1';
 import { ServiceSection } from '@/src/sections/service/v1';
 import { TeamSection } from '@/src/sections/team/v1';
-import { TeamSection2 } from '@/src/sections/team/v3';
+import { AboutSection2 } from '@/src/sections/about/v2';
 import { TestimonialSection } from '@/src/sections/testimonial/v1';
 import { Metadata } from 'next';
 
@@ -27,9 +27,8 @@ export default function Page() {
       <AboutSection />
       <CtaSection />
       <ProjectSection {...projectSectionData} />
-      <TeamSection2 />
+      <AboutSection2 />
       <TeamSection />
-     
       <TestimonialSection />
       <Footer />
     </>

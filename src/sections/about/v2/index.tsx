@@ -14,7 +14,7 @@ export interface AboutSectionProps {
   videoUrl: string;
 }
 
-export function AboutSection() {
+export function AboutSection2() {
   const { sectionHeading, aboutUsPoints, image, videoUrl } = aboutSectionData;
   return (
     <section className="section-padding-primary overflow-hidden">
