@@ -3,7 +3,6 @@ import { ImageProps } from '@/src/common-types';
 import { Container } from '@/src/components/container';
 import { SectionHeading } from '@/src/components/section-heading';
 import { SectionHeadingWithoutStylingProps } from '@/src/components/section-heading/interface';
-import { VideoPlayer } from '@/src/components/video-player';
 import { FaCircleCheck } from 'react-icons/fa6';
 
 export interface AboutSectionProps {
@@ -49,16 +48,6 @@ export function AboutSection2() {
               data-aos="fade-up-left"
               data-aos-delay="400"
             >
-              <VideoPlayer
-                thumbnail={{
-                  src: image.src,
-                  alt: image.alt,
-                  width: 640,
-                  height: 678,
-                }}
-                videoUrl={videoUrl}
-                
-              />
               {/* Forground shape  */}
               <div className="absolute left-0 top-0 -z-1 h-full w-full rotate-3 rounded-5 bg-primary transition-transform duration-350 group-hover:rotate-[2deg] md:rotate-[5deg]"></div>
             </div>

@@ -55,8 +55,8 @@ interface IOffCanvas {
 
 const offCanvasProps: IOffCanvas = {
   contactInfo: {
-    location: ' 88 broklyn street, New York',
-    phoneNumber: '+1 555-9990-153',
+    location: ' 83 De Las Guitarras, Hermosillo, Sonora',
+    phoneNumber: '6623380627',
     mail: 'info@example.com',
   },
   socialLinks: [
@@ -125,7 +125,7 @@ export function OffCanvas({ menuItems }: Pick<HeaderProps, 'menuItems'>) {
 
             {/* Contact info  */}
             <div className="px-5">
-              <h3 className={mainTitleClasses}>CONTACT INFO</h3>
+              <h3 className={mainTitleClasses}>Contacto</h3>
               <ul aria-label="addresses" className="grid gap-2">
                 <li className={addressItemClasses}>
                   <span className={addressIconParentClasses}>
