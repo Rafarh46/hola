@@ -5,16 +5,13 @@ import { SectionHeading } from '@/src/components/section-heading';
 import { teamSectionData } from '@/data/team-section/v3';
 import { Carousel } from '@/src/components/carousel';
 import { CarouselItem } from '@/src/components/carousel/sub-components/item';
-import { cn } from '@/src/utils/shadcn';
+
 
 export interface TeamSectionProps {
   sectionHeading: SectionHeadingWithoutStylingProps;
   cards: TeamCardProps[];
 }
 
-const navigationBtnClasses = cn(
-  'dark:bg-[#313133] transition-colors duration-300 bg-primary-light/10 text-primary-light hover:text-white hover:bg-primary-light'
-);
 
 export function TeamSection2() {
   const { sectionHeading, cards } = teamSectionData;
