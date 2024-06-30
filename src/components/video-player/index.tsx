@@ -2,12 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
-import Image from 'next/image';
 import styles from './video-player.module.css';
-import {
-  ImageProps,
-  blurDataUrl as fallbackBlurDataUrl,
-} from '@/src/common-types';
 import { cn } from '@/src/utils/shadcn';
 import { ClassValue } from 'clsx';
 
@@ -23,7 +18,7 @@ export interface VideoPlayerProps {
   /**
    * Video thumbnail image info
    */
-  thumbnail: ImageProps & {
+  thumbnail:{
     blurDataURL?: string;
     className?: string;
   };
@@ -45,7 +40,7 @@ export const VideoPlayer = ({
   palyBtnClassName,
 }: VideoPlayerProps) => {
   const [showModal, setShowModal] = useState(false);
-  const { src, alt, width, height, blurDataURL, className } = thumbnail;
+  const { blurDataURL, className } = thumbnail;
 
   useEffect(() => {
     const handleEsc = (event: KeyboardEvent) => {
@@ -110,18 +105,7 @@ export const VideoPlayer = ({
             'absolute inset-0 z-[1] hidden'
           )}
         ></span>
-        <Image
-          className={cn('block object-cover', className)}
-          src={src}
-          alt={alt}
-          width={width}
-          height={height}
-          placeholder={'blur'}
-          blurDataURL={
-            blurDataURL !== undefined ? blurDataURL : fallbackBlurDataUrl
-          }
-          sizes="100vw"
-        />
+
 
         {/* Play btn  */}
         <span
