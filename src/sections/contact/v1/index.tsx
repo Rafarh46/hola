@@ -5,7 +5,7 @@ import { SectionHeading } from '@/src/components/section-heading';
 import { SectionHeadingWithoutStylingProps } from '@/src/components/section-heading/interface';
 import { BREAKPOINTS } from '@/src/themes/interface';
 import Image from 'next/image';
-import { Form } from './form';
+
 
 export interface ContactSectionProps {
   sectionHeading: SectionHeadingWithoutStylingProps;
@@ -41,6 +41,5 @@ export function ContactSection() {
         </Container>
       </div>
     </section>
-    
   );
 }
