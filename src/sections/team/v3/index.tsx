@@ -2,7 +2,7 @@ import { SectionHeadingWithoutStylingProps } from '@/src/components/section-head
 import { TeamCard, TeamCardProps } from 'src/components/cards/team/v1';
 import { Container } from '@/src/components/container';
 import { SectionHeading } from '@/src/components/section-heading';
-import { teamSectionData } from '@/data/team-section/v1';
+import { teamSectionData } from '@/data/team-section/v3';
 import { Carousel } from '@/src/components/carousel';
 import { CarouselItem } from '@/src/components/carousel/sub-components/item';
 import { cn } from '@/src/utils/shadcn';
@@ -43,10 +43,6 @@ export function TeamSection2() {
               xl: 30,
               '2xl': 30,
             }}
-            hasNavigation
-            hasPagination
-            navigationPrevBtnClassName={navigationBtnClasses}
-            navigationNextBtnClassName={navigationBtnClasses}
           >
             {cards.map((card, index) => (
               <CarouselItem key={index}>

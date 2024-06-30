@@ -2,18 +2,18 @@ import { TeamSectionProps } from '@/src/sections/team/v1';
 
 export const teamSectionData: TeamSectionProps = {
   sectionHeading: {
-    subtitle: 'Nuestros Productos',
-    title: 'Equipando tu seguridad con tecnología de vanguardia',
+    subtitle: 'Presencia Nacional',
+    title: 'Proyectos Ejecutados',
   },
   cards: [
     {
       slug: '#',
       image: {
         src: '/assets/images/contact/section-half-bg-1.png',
-        alt: 'DETECTORS BEAM',
+        alt: '',
       },
       socials: [],
-      name: 'DETECTORS BEAM',
+      name: '',
       about: '',
     },
 
