@@ -1,45 +1,61 @@
-import { contactSectionData } from '@/data/contact-section/v1';
-import { ImageProps, blurDataUrl } from '@/src/common-types';
+import { SectionHeadingWithoutStylingProps } from '@/src/components/section-heading/interface';
+import { TeamCard, TeamCardProps } from 'src/components/cards/team/v1';
 import { Container } from '@/src/components/container';
 import { SectionHeading } from '@/src/components/section-heading';
-import { SectionHeadingWithoutStylingProps } from '@/src/components/section-heading/interface';
-import { BREAKPOINTS } from '@/src/themes/interface';
-import Image from 'next/image';
+import { teamSectionData } from '@/data/contact-section/v1';
+import { Carousel } from '@/src/components/carousel';
+import { CarouselItem } from '@/src/components/carousel/sub-components/item';
+import { cn } from '@/src/utils/shadcn';
 
-
-export interface ContactSectionProps {
+export interface TeamSectionProps {
   sectionHeading: SectionHeadingWithoutStylingProps;
-  image: Omit<ImageProps, 'width' | 'height'>;
+  cards: TeamCardProps[];
 }
 
-export function ContactSection() {
-  const { sectionHeading, image } = contactSectionData;
-  return (
-    <section className="section-padding-primary">
-      <div className="relative py-[60px]">
-        {/* Image area  */}
-        <div className="absolute left-0 top-0 z-1 h-full w-full overflow-hidden bg-red-500 md:w-[56%] md:rounded-r-5">
-          <Image
-            src={image.src}
-            alt={image.alt}
-            fill
-            className="object-cover"
-            sizes={`(min-width: ${BREAKPOINTS.md}) 30vw, 100vw`}
-            placeholder="blur"
-            blurDataURL={blurDataUrl}
-          />
-        </div>
+const navigationBtnClasses = cn(
+  'dark:bg-[#313133] transition-colors duration-300 bg-primary-light/10 text-primary-light hover:text-white hover:bg-primary-light'
+);
 
-        <Container>
-          <div className="ml-auto md:w-1/2">
-            <div className="relative z-[2] rounded-5 bg-white p-10 shadow-1 dark:bg-accent-700 lg:p-[60px]">
-              <div className="mb-30px">
-                <SectionHeading {...sectionHeading} />
-              </div>
-            </div>
-          </div>
-        </Container>
-      </div>
+export function ContactSection() {
+  const { sectionHeading, cards } = teamSectionData;
+  return (
+    <section className="section-padding-primary overflow-hidden bg-accent-100 dark:bg-accent-700">
+      <Container>
+        <div className="mb-10 mr-30px max-w-[680px] md:mb-[3.75rem] md:pr-[140px]">
+          <SectionHeading {...sectionHeading} />
+        </div>
+        {cards && cards.length > 0 && (
+          <Carousel
+            haveOffset={false}
+            itemsPerSlide={{
+              initial: 1,
+              sm: 1.2,
+              md: 2,
+              lg: 2.5,
+              xl: 3,
+              '2xl': 3,
+            }}
+            itemGap={{
+              initial: 30,
+              sm: 30,
+              md: 30,
+              lg: 30,
+              xl: 30,
+              '2xl': 30,
+            }}
+            hasNavigation
+            hasPagination
+            navigationPrevBtnClassName={navigationBtnClasses}
+            navigationNextBtnClassName={navigationBtnClasses}
+          >
+            {cards.map((card, index) => (
+              <CarouselItem key={index}>
+                <TeamCard {...card} />
+              </CarouselItem>
+            ))}
+          </Carousel>
+        )}
+      </Container>
     </section>
   );
 }
