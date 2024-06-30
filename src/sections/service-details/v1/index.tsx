@@ -150,8 +150,13 @@ export function ServiceDetailsSection() {
               impulsan a seguir liderando en el ámbito de la protección contra
               incendios y seguridad.
             </p>
-
-            
+             <Image
+                src="/assets/images/service-details/image-3.jpg"
+                alt="service image 2"
+                width={320}
+                height={435}
+                className="rounded-5"
+              />
             
             <div className="mt-2.5 grid grid-cols-1 gap-6">
               <div className="grid items-baseline gap-6 lg:gap-9">
@@ -189,13 +194,6 @@ export function ServiceDetailsSection() {
                   </p>
                 </div>
               </div>
-              <Image
-                src="/assets/images/service-details/image-3.jpg"
-                alt="service image 2"
-                width={640}
-                height={870}
-                className="rounded-5"
-              />
             </div>
           </div>
         </div>
