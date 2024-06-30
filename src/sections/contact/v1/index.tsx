@@ -24,7 +24,7 @@ export function ContactSection() {
             alt={image.alt}
             fill
             className="object-cover"
-            sizes={`(min-width: ${BREAKPOINTS.md}) 60vw, 100vw`}
+            sizes={`(min-width: ${BREAKPOINTS.md}) 30vw, 100vw`}
             placeholder="blur"
             blurDataURL={blurDataUrl}
           />
@@ -39,8 +39,8 @@ export function ContactSection() {
             </div>
           </div>
         </Container>
-        <Form />
       </div>
     </section>
+    
   );
 }
