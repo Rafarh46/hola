@@ -14,9 +14,6 @@ import { ClassValue } from 'clsx';
 /**
  * Tailwind classess
  */
-const iconStyle = cn(
-  `w-[100px] h-[100px] rounded-5 bg-primary grid place-items-center duration-350 text-white hover:bg-black transition-all`
-);
 const cursorStyle = cn(`cursor-pointer`);
 
 export interface VideoPlayerProps {
@@ -42,7 +39,6 @@ export interface VideoPlayerProps {
 export const VideoPlayer = ({
   thumbnail,
   videoUrl,
-  palyBtnClassName,
 }: VideoPlayerProps) => {
   const [showModal, setShowModal] = useState(false);
   const { src, alt, width, height, blurDataURL, className } = thumbnail;
@@ -124,7 +120,7 @@ export const VideoPlayer = ({
         />
 
         {/* Play btn  */}
-
+        
       </div>
 
       {/* modal  */}
