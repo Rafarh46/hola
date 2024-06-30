@@ -44,8 +44,8 @@ export function TeamCard({
         <Image
           src={image.src}
           alt={image.alt}
-          width={640}
-          height={712}
+          width={1040}
+          height={1240}
           sizes="
           (min-width:768px) 50vw, 
           (min-width:1024px) 33vw,
