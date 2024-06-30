@@ -14,8 +14,8 @@ import { TestimonialSection } from '@/src/sections/testimonial/v1';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Techlab | Home',
-  description: 'Techlab - IT Solutions and Services React Nextjs Template',
+  title: 'SDIH | Sistemas Detección de Incendios',
+  description: 'SDIH | Sistemas Detección de Incendios',
 };
 
 export default function Page() {

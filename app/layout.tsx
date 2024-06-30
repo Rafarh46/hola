@@ -31,12 +31,6 @@ export default async function RootLayout({ children }: Props) {
     >
       <AOSInit />
       <body>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
           <div
             className={cn(
               'bg-white text-accent-800 dark:bg-accent-900 dark:text-body'
@@ -45,7 +39,6 @@ export default async function RootLayout({ children }: Props) {
             <main>{children}</main>
             <ModeToggle />
           </div>
-        </ThemeProvider>
         <Toaster
           richColors
           position="top-right"
