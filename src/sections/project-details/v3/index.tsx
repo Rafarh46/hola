@@ -104,15 +104,15 @@ export function ProjectDetailsSection() {
             </div>
           </div>
 
-          <p>
-            En SDIH, entendemos que una instalación confiable de sistemas contra
+          <p style={{ textAlign: 'justify' }}>
+            En SDI&#39;H, entendemos que una instalación confiable de sistemas contra
             incendios depende de un buen diseño que optimice recursos y asegure
             la eficiencia en la entrega del trabajo. Con más de 20 años de
             experiencia y un equipo altamente capacitado, estamos preparados
             para abordar grandes proyectos en todo el país, habiendo ganado el
             reconocimiento y la confianza de nuestros clientes.
           </p>
-          <p>
+          <p style={{ textAlign: 'justify' }}>
             Nuestra experiencia nos permite ofrecer un servicio de instalación
             de alta calidad que cumple con los estándares más exigentes de
             seguridad y eficiencia. Nos enorgullecemos de nuestros métodos
@@ -121,7 +121,7 @@ export function ProjectDetailsSection() {
             incendios.
           </p>
 
-          <p>
+          <p style={{ textAlign: 'justify' }}>
             Para garantizar un mantenimiento eficaz y confiable, nuestro
             departamento de Servicios se especializa en la inspección, prueba y
             mantenimiento de sistemas contra incendios. Nos aseguramos de que

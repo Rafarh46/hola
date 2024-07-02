@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa6';
 export const footerSectionData: FooterSectionProps = {
   about: {
     description:
-      'En SDIH, ofrecemos soluciones integrales de protección contra incendios con más de 14 años de experiencia, garantizando seguridad y satisfacción en diversos sectores.',
+      'En SDIH, ofrecemos soluciones integrales de protección contra incendios con más de 17 años de experiencia, garantizando seguridad y satisfacción en diversos sectores.',
     socialLinks: [
       {
         icon: <FaFacebookF />,

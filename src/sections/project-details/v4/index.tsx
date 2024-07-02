@@ -99,15 +99,15 @@ export function ProjectDetailsSection() {
             </div>
           </div>
 
-          <p>
-            En SDIH, ofrecemos un servicio de mantenimiento confiable y
+          <p style={{ textAlign: 'justify' }}>
+            En SDI&#39;H, ofrecemos un servicio de mantenimiento confiable y
             actualizado conforme a las normas más recientes para la inspección,
             prueba y mantenimiento de sistemas contra incendios y seguridad.
             Nuestro personal está capacitado continuamente para garantizar que
             los servicios se realicen bajo los estándares más estrictos,
             brindando la confianza y seguridad que nuestros clientes requieren.
           </p>
-          <p>
+          <p style={{ textAlign: 'justify' }}>
             Contamos con un riguroso control de calidad que supervisa cada etapa
             del proceso, asegurando resultados óptimos y consistentes. Esto,
             junto con nuestro compromiso con la excelencia, nos permite ofrecer
@@ -124,7 +124,7 @@ export function ProjectDetailsSection() {
                   Servicios correctivos
                 </h3>
               </div>
-              <p>
+              <p style={{ textAlign: 'justify' }}>
                 El mantenimiento correctivo se enfoca en reparar componentes
                 dañados del sistema para asegurar su funcionamiento óptimo. Un
                 adecuado mantenimiento preventivo reduce la necesidad de
@@ -147,7 +147,7 @@ export function ProjectDetailsSection() {
                   Servicios Preventivos
                 </h3>
               </div>
-              <p>
+              <p style={{ textAlign: 'justify' }}>
                 entendemos la importancia del mantenimiento preventivo para
                 garantizar el óptimo funcionamiento de los sistemas contra
                 incendios. Nuestro servicio de mantenimiento preventivo incluye
@@ -172,7 +172,7 @@ export function ProjectDetailsSection() {
                   Validación y Ejecución
                 </h3>
               </div>
-              <p>
+              <p style={{ textAlign: 'justify' }}>
                 Nos encargamos de validar y asegurar la correcta ejecución de
                 los servicios de inspección, prueba y mantenimiento de los
                 sistemas contra incendios. Nos aseguramos de que estos servicios

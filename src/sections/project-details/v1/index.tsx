@@ -103,8 +103,8 @@ export function ProjectDetailsSection() {
             </div>
           </div>
 
-          <p>
-            En SDIH, ofrecemos soluciones avanzadas en sistemas de alarmas y
+          <p style={{ textAlign: 'justify' }}>
+            En SDI&#39;H, ofrecemos soluciones avanzadas en sistemas de alarmas y
             detección para garantizar la seguridad y protección de sus
             instalaciones. Nos especializamos en el diseño, instalación y
             mantenimiento de sistemas de alarmas contra incendios y detección de
@@ -113,7 +113,7 @@ export function ProjectDetailsSection() {
             específicas de cada cliente, proporcionando una cobertura completa y
             eficiente desde el diseño hasta la instalación y mantenimiento.
           </p>
-          <p>
+          <p style={{ textAlign: 'justify' }}>
             Además, nuestros servicios incluyen la actualización de sistemas
             existentes para que cumplan con las últimas normativas y
             tecnologías, así como la implementación de soluciones de monitoreo
@@ -135,7 +135,7 @@ export function ProjectDetailsSection() {
                   Sirenas
                 </h3>
               </div>
-              <p>
+              <p style={{ textAlign: 'justify' }}>
                 Ofrecemos sirenas de alta calidad diseñadas para proporcionar
                 alertas claras y efectivas en situaciones de emergencia.
                 Nuestras sirenas destacan por su alta audibilidad, diversidad de
@@ -161,8 +161,8 @@ export function ProjectDetailsSection() {
                   Detectores
                 </h3>
               </div>
-              <p>
-                En SDIH, ofrecemos detectores de última generación diseñados
+              <p style={{ textAlign: 'justify' }}>
+                En SDI&#39;H, ofrecemos detectores de última generación diseñados
                 para proporcionar una detección precisa y temprana de humo y
                 fuego. Nuestros detectores emplean tecnología avanzada, como
                 detectores fotoeléctricos e inteligentes, que aseguran una
@@ -186,8 +186,8 @@ export function ProjectDetailsSection() {
                   Pull
                 </h3>
               </div>
-              <p>
-                En SDIH, ofrecemos dispositivos pull de alta fiabilidad
+              <p style={{ textAlign: 'justify' }}>
+                En SDI&#39;H, ofrecemos dispositivos pull de alta fiabilidad
                 diseñados para activar rápidamente alarmas de incendio y
                 sistemas de extinción en caso de emergencia. Nuestros pulls
                 están construidos para ser accesibles y fáciles de utilizar en

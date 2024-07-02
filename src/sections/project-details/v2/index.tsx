@@ -105,7 +105,7 @@ export function ProjectDetailsSection() {
           </div>
 
           <p style={{ textAlign: 'justify' }}>
-            En SDI'H, nos especializamos en el diseño, instalación y
+            En SDI&#39;H, nos especializamos en el diseño, instalación y
             mantenimiento de sistemas hidráulicos integrales para la protección
             contra incendios. Nuestros servicios abarcan desde la instalación de
             bombas de agua de alta capacidad hasta la configuración de redes de
@@ -139,7 +139,7 @@ export function ProjectDetailsSection() {
                 </h3>
               </div>
               <p style={{ textAlign: 'justify' }}>
-                En SDIH, ofrecemos bombas de agua robustas y eficientes
+                En SDI&#39;H, ofrecemos bombas de agua robustas y eficientes
                 diseñadas específicamente para sistemas contra incendios. Estas
                 bombas son fundamentales para garantizar un suministro constante
                 y adecuado de agua a presión en caso de emergencia, asegurando

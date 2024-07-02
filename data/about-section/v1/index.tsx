@@ -62,7 +62,7 @@ export const aboutSectionData: AboutSectionProps = {
     subtitle: 'Acerca de Nosotros',
     title: 'Protegiendo tu futuro, innovando en cada paso',
     description:
-      'En Sistemas Detección de Incendio (SDIH), nos especializamos en brindar soluciones integrales para la protección contra incendios. Con una experiencia de 14 años en el sector, nos dedicamos a ofrecer servicios eficientes y oportunos que satisfacen las necesidades de nuestros clientes en la detección y combate de incendios. Nuestro enfoque abarca el suministro de materiales, instalación de equipos, diseño de sistemas, asesoría y servicios de mantenimiento preventivo y correctivo.',
+      'En Sistemas Detección de Incendio (SDIH), nos especializamos en brindar soluciones integrales para la protección contra incendios. Con una experiencia de 17 años en el sector, nos dedicamos a ofrecer servicios eficientes y oportunos que satisfacen las necesidades de nuestros clientes en la detección y combate de incendios. Nuestro enfoque abarca el suministro de materiales, instalación de equipos, diseño de sistemas, asesoría y servicios de mantenimiento preventivo y correctivo.',
   },
   keyPoints: [
     {

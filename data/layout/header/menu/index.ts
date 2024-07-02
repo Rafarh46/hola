@@ -14,10 +14,6 @@ export const menuItemsProps: HeaderProps['menuItems'] = [
     href: '/project',
   },
   {
-    label: 'Portafolio',
-    href: '/INFOSDIH.pdf',
-  },
-  {
     label: 'Contacto',
     href: '/contact',
   },

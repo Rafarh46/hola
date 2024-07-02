@@ -137,7 +137,7 @@ export function ServiceDetailsSection() {
               </span>
             </div>
             <p style={{ textAlign: 'justify' }}>
-              En SDIH, cada proyecto es una oportunidad para demostrar nuestro
+              En SDI&#39;H, cada proyecto es una oportunidad para demostrar nuestro
               compromiso con la excelencia y la seguridad. Nuestra misión,
               visión y valores son los cimientos sobre los cuales construimos
               nuestras acciones y decisiones diarias. Estos principios no solo
@@ -165,14 +165,14 @@ export function ServiceDetailsSection() {
                     Misión
                   </h3>
                   <p style={{ textAlign: 'justify' }}>
-                    En Sistemas Detección de Incendio (SDIH), nos dedicamos a
+                    En Sistemas Detección de Incendio (SDI&#39;H), nos dedicamos a
                     ofrecer soluciones integrales para la protección contra
                     incendios. Nuestro objetivo es brindar un servicio eficaz y
                     oportuno que cubra las necesidades de nuestros clientes en
                     la detección y combate de incendios, incluyendo el
                     suministro de materiales, instalación de equipos, diseño de
                     sistemas, asesoría, y servicios de mantenimiento preventivo
-                    y correctivo. Con 14 años de experiencia en el ramo,
+                    y correctivo. Con 17 años de experiencia en el ramo,
                     trabajamos en sectores como la minería, industria,
                     hospitalario, hotelero, edificios de oficinas y comerciales,
                     comprometidos siempre con la seguridad y satisfacción de
