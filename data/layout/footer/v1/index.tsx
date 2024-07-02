@@ -37,8 +37,12 @@ export const footerSectionData: FooterSectionProps = {
   },
   columnThree: {title: '',
     blogs: [
-    
-    ],},
+    ],
+    button: {
+      label: 'Contacto',
+      href: '/contact',
+      }
+    ,},
   footerBottom: {
     copyrightText: '© SDIH 2024 | All Rights Reserved',
     links: [

@@ -1,10 +1,16 @@
+'use client';
+
 import { footerSectionData } from '@/data/layout/footer/v1';
 import { ImageProps, LinkProps, SectionProps } from '@/src/common-types';
 import { Container } from '@/src/components/container';
 import { CustomLink } from '@/src/components/custom-link';
 import { cn } from '@/src/utils/shadcn';
-import Image from 'next/image';
 import { BrandLogo } from 'src/layout/brand-logo';
+import { Button } from '@/src/components/button';
+
+
+
+
 import {
   FaChevronRight,
   FaEnvelope,
@@ -42,7 +48,9 @@ export interface FooterSectionProps {
   };
   columnThree: {
     title: string;
-    blogs: RecentBlog[];
+    button: LinkProps;
+    blogs: RecentBlog[]
+    ;
   };
   footerBottom: {
     copyrightText: string;
@@ -186,17 +194,32 @@ export function Footer({ className }: SectionProps) {
                 <div className="grid gap-6">
                   {columnThree.blogs.map((blog, index) => (
                     <article
+                      
+                      
+                      
                       key={index}
                       className="group flex items-center gap-4 text-accent-800  dark:text-white"
                     >
                       <div className="flex-none overflow-hidden rounded-5">
-                        <Image
-                          {...blog.image}
-                          alt={blog.image.alt}
-                          width={80}
-                          height={80}
-                          className="object-cover transition-transform duration-700 group-hover:scale-105"
-                        />
+                      <Button asChild className={cn('rounded-full')}>
+                        <CustomLink
+                          aria-label={columnThree.button.label}
+                          href={columnThree.button.href}
+                          openNewTab={columnThree.button.openNewTab}
+                        >
+                          <span>{columnThree.button.label}</span>
+                          <svg
+                            width={28}
+                            height={9}
+                            viewBox="0 0 28 9"
+                            fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="M27.7911 5.02543C27.9863 4.83016 27.9863 4.51358 27.7911 4.31832L24.6091 1.13634C24.4138 0.941077 24.0972 0.941077 23.902 1.13634C23.7067 1.3316 23.7067 1.64818 23.902 1.84345L26.7304 4.67187L23.902 7.5003C23.7067 7.69556 23.7067 8.01214 23.902 8.20741C24.0972 8.40267 24.4138 8.40267 24.6091 8.20741L27.7911 5.02543ZM0.4375 5.17188L27.4375 5.17187L27.4375 4.17187L0.4375 4.17188L0.4375 5.17188Z" />
+                          </svg>
+                        </CustomLink>
+                      </Button>
+                        
                       </div>
                       <div>
                         <p className="flex items-center gap-2.5 dark:text-body">
