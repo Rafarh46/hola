@@ -37,7 +37,7 @@ export function ProjectCard({
         sizes={`
           (min-width:${BREAKPOINTS.md}) 50vw, 
           (min-width:${BREAKPOINTS.lg}) 25vw,
-          100vw
+          75vw
           `}
         className="pointer-events-none [transform:scale(1.05)] [transition:.9s_ease] group-hover/portfolio:[transform:scale(1)]"
       />
