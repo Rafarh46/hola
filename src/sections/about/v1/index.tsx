@@ -49,7 +49,7 @@ export function AboutSection() {
               </div>
             )}
             {description && (
-              <p className="mt-5 md:mt-[1.875rem]">{description}</p>
+              <p style={{ textAlign: 'justify' }} className="mt-5 md:mt-[1.875rem]">{description}</p>
             )}
           </div>
 

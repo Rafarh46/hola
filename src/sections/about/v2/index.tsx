@@ -27,7 +27,7 @@ export function AboutSection2() {
           >
             <SectionHeading {...sectionHeading} />
             {aboutUsPoints && aboutUsPoints.length > 0 && (
-              <ul
+              <ul style={{ textAlign: 'justify' }}
                 aria-label="about us point"
                 className="mt-10 grid max-w-[560px] gap-1 gap-x-20 sm:grid-cols-2 md:gap-2"
               >
