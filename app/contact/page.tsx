@@ -15,14 +15,14 @@ export default function Page() {
     <>
       <MainHeader version="2" />
       <HeroSection
-        title="Contactanos"
+        title="Contáctanos"
         breadcrumbItems={[
           {
             label: 'Inicio',
             href: '/',
           },
           {
-            label: 'Contactanos',
+            label: 'Contáctanos',
           },
         ]}
       />

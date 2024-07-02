@@ -3,8 +3,6 @@
 import { Container } from '@/src/components/container';
 
 import { ImageProps, LinkProps } from '@/src/common-types';
-import { Button } from '@/src/components/button';
-import { CustomLink } from '@/src/components/custom-link';
 import { Shapes } from './shapes';
 import { heroData } from '@/data/hero/v1';
 import { cn } from '@/src/utils/shadcn';
@@ -28,7 +26,6 @@ export interface HeroProps {
   items: {
     title: string;
     image: Omit<ImageProps, 'width' | 'height'>;
-    button: LinkProps;
   }[];
 }
 
@@ -79,27 +76,10 @@ export function Hero() {
                     )}
                   >
                     <div className="space-y-6 md:space-y-8">
-                      <h1 className="text-1xl font-secondary font-semibold uppercase leading-[1.1] md:text-2xl lg:text-3xl">
+                      <h1 className="text-xl font-secondary font-semibold uppercase leading-[1.1] md:text-3xl lg:text-3xl">
                         {item.title}
                       </h1>
-                      <Button asChild className={cn('rounded-full')}>
-                        <CustomLink
-                          aria-label={item.button.label}
-                          href={item.button.href}
-                          openNewTab={item.button.openNewTab}
-                        >
-                          <span>{item.button.label}</span>
-                          <svg
-                            width={28}
-                            height={9}
-                            viewBox="0 0 28 9"
-                            fill="currentColor"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path d="M27.7911 5.02543C27.9863 4.83016 27.9863 4.51358 27.7911 4.31832L24.6091 1.13634C24.4138 0.941077 24.0972 0.941077 23.902 1.13634C23.7067 1.3316 23.7067 1.64818 23.902 1.84345L26.7304 4.67187L23.902 7.5003C23.7067 7.69556 23.7067 8.01214 23.902 8.20741C24.0972 8.40267 24.4138 8.40267 24.6091 8.20741L27.7911 5.02543ZM0.4375 5.17188L27.4375 5.17187L27.4375 4.17187L0.4375 4.17188L0.4375 5.17188Z" />
-                          </svg>
-                        </CustomLink>
-                      </Button>
+                      
                     </div>
                   </div>
                 </Container>
