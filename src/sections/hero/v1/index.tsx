@@ -2,7 +2,7 @@
 
 import { Container } from '@/src/components/container';
 
-import { ImageProps, LinkProps } from '@/src/common-types';
+import { ImageProps } from '@/src/common-types';
 import { Shapes } from './shapes';
 import { heroData } from '@/data/hero/v1';
 import { cn } from '@/src/utils/shadcn';
