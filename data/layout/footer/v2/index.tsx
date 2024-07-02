@@ -62,7 +62,7 @@ export const footerSectionData: FooterSectionProps = {
   },
 
   columnFour: {
-    title: 'Contactanos',
+    title: 'Contáctanos',
     phoneNumber: '6623380627',
     mail: 'yourmail@gmail.com',
     location: '83 De Las Guitarras, Hermosillo, Sonora',
