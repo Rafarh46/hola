@@ -1,5 +1,5 @@
 import { footerSectionData } from '@/data/layout/footer/v2';
-import { ImageProps, LinkProps, SectionProps } from '@/src/common-types';
+import {LinkProps, SectionProps } from '@/src/common-types';
 import { Container } from '@/src/components/container';
 import { CustomLink } from '@/src/components/custom-link';
 import { cn } from '@/src/utils/shadcn';
