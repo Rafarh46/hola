@@ -19,7 +19,7 @@ const services: LinkProps[] = [
     href: '/',
   },
   {
-    label: 'DInnovación Continua',
+    label: 'Innovación Continua',
     href: '/',
   },
   {
@@ -136,7 +136,7 @@ export function ServiceDetailsSection() {
                 </svg>
               </span>
             </div>
-            <p>
+            <p style={{ textAlign: 'justify' }}>
               En SDIH, cada proyecto es una oportunidad para demostrar nuestro
               compromiso con la excelencia y la seguridad. Nuestra misión,
               visión y valores son los cimientos sobre los cuales construimos
@@ -164,7 +164,7 @@ export function ServiceDetailsSection() {
                   <h3 className="text-md font-bold text-accent-700 dark:text-white">
                     Misión
                   </h3>
-                  <p>
+                  <p style={{ textAlign: 'justify' }}>
                     En Sistemas Detección de Incendio (SDIH), nos dedicamos a
                     ofrecer soluciones integrales para la protección contra
                     incendios. Nuestro objetivo es brindar un servicio eficaz y
@@ -183,7 +183,7 @@ export function ServiceDetailsSection() {
                   <h3 className="text-md font-bold text-accent-700 dark:text-white">
                     Visión
                   </h3>
-                  <p>
+                  <p style={{ textAlign: 'justify' }} >
                     Aspiramos a ser reconocidos por nuestra innovación, calidad
                     y excelencia en el servicio, expandiendo nuestra presencia
                     en nuevos sectores y adoptando tecnologías de vanguardia
