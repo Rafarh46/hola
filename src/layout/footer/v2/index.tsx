@@ -8,12 +8,6 @@ import { FaEnvelope, FaPhone } from 'react-icons/fa6';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { ClassValue } from 'clsx';
 
-interface RecentBlog {
-  slug: string;
-  image: Omit<ImageProps, 'width' | 'height'>;
-  date: string;
-  title: string;
-}
 
 interface SocialLinkProps {
   icon: React.ReactNode;
