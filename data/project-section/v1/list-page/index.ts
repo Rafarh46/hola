@@ -31,7 +31,7 @@ export const projectSectionData: ProjectSectionProps = {
         src: '/assets/images/project/4.png',
         alt: 'portfolio-1',
       },
-      title: 'MANTENIMIENTO',
+      title: 'MANTENIMIENTO MANTENIMIENTO',
       description: '',
     },
   ],
