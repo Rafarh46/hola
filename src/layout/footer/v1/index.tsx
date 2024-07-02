@@ -190,18 +190,7 @@ export function Footer({ className }: SectionProps) {
             {/* Column three  */}
             <div data-aos="fade-up" data-aos-delay="800">
               <h3 className={titleClasses}>{columnThree.title}</h3>
-              {columnThree.blogs && columnThree.blogs.length > 0 && (
-                <div className="grid gap-6">
-                  {columnThree.blogs.map((blog, index) => (
-                    <article
-                      
-                      
-                      
-                      key={index}
-                      className="group flex items-center gap-4 text-accent-800  dark:text-white"
-                    >
-                      <div className="flex-none overflow-hidden rounded-5">
-                      <Button asChild className={cn('rounded-full')}>
+              <Button asChild className={cn('rounded-full')}>
                         <CustomLink
                           aria-label={columnThree.button.label}
                           href={columnThree.button.href}
@@ -219,6 +208,17 @@ export function Footer({ className }: SectionProps) {
                           </svg>
                         </CustomLink>
                       </Button>
+              {columnThree.blogs && columnThree.blogs.length > 0 && (
+                <div className="grid gap-6">
+                  {columnThree.blogs.map((blog, index) => (
+                    <article
+                      
+                      
+                      
+                      key={index}
+                      className="group flex items-center gap-4 text-accent-800  dark:text-white"
+                    >
+                      <div className="flex-none overflow-hidden rounded-5">
                         
                       </div>
                       <div>
