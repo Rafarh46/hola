@@ -31,7 +31,7 @@ export function ServiceCard({ icon, title, description, slug }: ServiceProps) {
           <CustomLink href={slug}>{title}</CustomLink>
         </h2>
       </div>
-      <p className="text-accent-800 dark:text-body">{description}</p>
+      <p style={{ textAlign: 'justify' }} className="text-accent-800 dark:text-body">{description}</p>
       <Button
         asChild
         className={cn([
