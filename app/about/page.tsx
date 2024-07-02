@@ -5,7 +5,6 @@ import { AboutSection } from '@/src/sections/about/v1';
 import { CtaSection } from '@/src/sections/cta/v1';
 import { HeroSection } from '@/src/sections/hero/v3';
 
-import { TestimonialSection } from '@/src/sections/testimonial/v1';
 
 import { Metadata } from 'next';
 
@@ -32,7 +31,7 @@ export default function Page() {
       />
       <AboutSection />
       <CtaSection />
-      <TestimonialSection />
+      
 
       <Footer />
     </>
