@@ -29,7 +29,7 @@ export function AboutSection() {
       <Container>
         <div className="grid items-center gap-12 lg:grid-cols-[.92fr_1fr] 2xl:gap-20">
           {/* Content  */}
-          <div className="lg:order-2" data-aos="fade-left" data-aos-delay="200">
+          <div style={{ textAlign: 'justify' }} className="lg:order-2" data-aos="fade-left" data-aos-delay="200">
             <SectionHeading {...sectionHeading} />
             {keyPoints && keyPoints.length > 0 && (
               <div className="mt-7 grid gap-5 text-accent-900 dark:text-white sm:grid-cols-2 md:mt-10 md:gap-[1.875rem]">
