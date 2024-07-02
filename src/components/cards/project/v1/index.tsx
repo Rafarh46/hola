@@ -45,7 +45,7 @@ export function ProjectCard({
       {/* Content  */}
       <div className="relative z-10 flex h-full flex-col">
         <div className="mt-auto divide-y md:opacity-0 md:transition-[transform,opacity] md:duration-500  md:group-hover/portfolio:opacity-100">
-          <h3 className="overflow-hidden text-md font-bold leading-[1.75] text-white md:text-lg">
+          <h3 className="overflow-hidden text-md font-bold leading-[2.5] text-white md:text-lg">
             <span className="block [transition-delay:500ms] [transition:all_.9s_ease] md:[transform:translateY(-100%)] md:group-hover/portfolio:[transform:translateY(0)]">
               {title}
             </span>
