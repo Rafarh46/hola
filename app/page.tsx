@@ -29,7 +29,6 @@ export default function Page() {
       <ProjectSection {...projectSectionData} />
       <AboutSection2 />
       <TeamSection />
-      <TestimonialSection />
       <Footer />
     </>
   );

@@ -75,5 +75,5 @@ export const aboutSectionData: AboutSectionProps = {
     },
   ],
   description:
-    'Ofrecemos una amplia gama de servicios para satisfacer las necesidades de nuestros clientes, incluyendo mantenimiento preventivo y correctivo, diseño e ingeniería de sistemas, suministro de equipos, e instalación de sistemas.',
+    'Ofrecemos una amplia gama de servicios para satisfacer las necesidades de nuestros clientes, incluyendo mantenimiento preventivo y correctivo, diseño e ingeniería de sistemas, suministro de equipos e instalación de sistemas.',
 };

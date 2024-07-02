@@ -110,8 +110,8 @@ export function ProjectDetailsSection() {
           <p style={{ textAlign: 'justify' }}>
             Contamos con un riguroso control de calidad que supervisa cada etapa
             del proceso, asegurando resultados óptimos y consistentes. Esto,
-            junto con nuestro compromiso con la excelencia, nos permite ofrecer
-            un servicio que no solo cumple, sino que supera las expectativas de
+            junto con nuestro compromiso con la excelencia nos permite ofrecer
+            un servicio que no solo cumple sino que supera las expectativas de
             nuestros clientes.
           </p>
           <div className="my-3 grid grid-cols-1 gap-5 md:grid-cols-2 lg:gap-8 2xl:grid-cols-3">
@@ -148,13 +148,13 @@ export function ProjectDetailsSection() {
                 </h3>
               </div>
               <p style={{ textAlign: 'justify' }}>
-                entendemos la importancia del mantenimiento preventivo para
+                Entendemos la importancia del mantenimiento preventivo para
                 garantizar el óptimo funcionamiento de los sistemas contra
                 incendios. Nuestro servicio de mantenimiento preventivo incluye
                 inspecciones regulares, pruebas de funcionamiento y ajustes
                 según las normativas NFPA y FM. Nos aseguramos de que todos los
                 componentes, desde alarmas hasta rociadores y sistemas
-                hidráulicos, estén en condiciones óptimas para responder
+                hidráulicos estén en condiciones óptimas para responder
                 eficazmente ante una emergencia. Con un enfoque proactivo,
                 nuestro equipo técnico capacitado identifica y corrige posibles
                 fallas antes de que se conviertan en problemas mayores,

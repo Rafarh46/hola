@@ -28,7 +28,7 @@ const projectOverviewList: OverviewProps[] = [
   {
     icon: <FaChalkboardUser />,
     subHeading: '',
-    heading: 'Hidrantes Rojos',
+    heading: 'Red de Hidrantes',
   },
   {
     icon: <FaCompassDrafting />,
