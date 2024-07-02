@@ -26,10 +26,10 @@ export const footerSectionData: FooterSectionProps = {
     },
   ],
   columnOne: {
-    title: 'Quick Links',
+    title: 'Links',
     links: [
       {
-        label: 'Home',
+        label: 'Inicio',
         href: '/',
         openNewTab: false,
       },
@@ -61,20 +61,6 @@ export const footerSectionData: FooterSectionProps = {
     ],
   },
 
-  columnThree: {
-    title: '',
-    blogs: [
-      {
-        image: {
-          src: '',
-          alt: '',
-        },
-        title: '',
-        date: '',
-        slug: '',
-      },
-    ],
-  },
   columnFour: {
     title: 'Contactanos',
     phoneNumber: '6623380627',

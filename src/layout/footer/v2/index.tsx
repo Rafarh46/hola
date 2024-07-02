@@ -32,10 +32,7 @@ export interface FooterSectionProps {
     title: string;
     links: LinkProps[];
   };
-  columnThree: {
-    title: string;
-    blogs: RecentBlog[];
-  };
+ 
   columnFour: {
     title: string;
     location: string;
@@ -71,7 +68,6 @@ export function Footer({ className, footerTopClassName }: Props) {
     socialLinks,
     columnOne,
     columnTwo,
-    columnThree,
     columnFour,
     footerBottom,
   } = footerSectionData;
@@ -164,46 +160,7 @@ export function Footer({ className, footerTopClassName }: Props) {
               )}
             </div>
 
-            {/* Column three  */}
-            <div data-aos="fade-up" data-aos-delay="600">
-              <h3 className={titleClasses}>{columnThree.title}</h3>
-              {columnThree.blogs && columnThree.blogs.length > 0 && (
-                <div className="grid gap-6">
-                  {columnThree.blogs.map((blog, index) => (
-                    <article
-                      key={index}
-                      className="group flex items-center gap-4 text-accent-800  dark:text-body"
-                    >
-                      <div className="flex-none overflow-hidden rounded-5">
-                        <Image
-                          {...blog.image}
-                          alt={blog.image.alt}
-                          width={80}
-                          height={80}
-                          className="object-cover transition-transform duration-700 group-hover:scale-105"
-                        />
-                      </div>
-                      <div>
-                        <h4 className="font-primary text-base font-normal leading-[1.87]">
-                          <CustomLink
-                            href={blog.slug}
-                            className="transition-colors duration-300 hover:text-primary"
-                          >
-                            {blog.title}
-                          </CustomLink>
-                        </h4>
-                        <p className="flex items-center gap-2.5">
-                          <span className="text-primary">
-                            <FaCalendarDays />
-                          </span>
-                          <span>{blog.date}</span>
-                        </p>
-                      </div>
-                    </article>
-                  ))}
-                </div>
-              )}
-            </div>
+           
 
             {/* Column Four  */}
             <div data-aos="fade-up" data-aos-delay="800">
