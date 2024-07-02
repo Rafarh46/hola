@@ -35,8 +35,8 @@ export function ProjectCard({
         alt={image.alt}
         fill
         sizes={`
-          (min-width:${BREAKPOINTS.md}) 50vw, 
-          (min-width:${BREAKPOINTS.lg}) 25vw,
+          (min-width:${BREAKPOINTS.md}) 75vw, 
+          (min-width:${BREAKPOINTS.lg}) 50vw,
           100vw
           `}
         className="pointer-events-none [transform:scale(1.05)] [transition:.9s_ease] group-hover/portfolio:[transform:scale(1)]"
