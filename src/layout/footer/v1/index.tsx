@@ -198,8 +198,8 @@ export function Footer({ className }: SectionProps) {
                         >
                           <span>{columnThree.button.label}</span>
                           <svg
-                            width={28}
-                            height={9}
+                            width={50}
+                            height={18}
                             viewBox="0 0 28 9"
                             fill="currentColor"
                             xmlns="http://www.w3.org/2000/svg"
