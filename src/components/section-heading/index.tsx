@@ -38,7 +38,7 @@ export function SectionHeading({
         {title}
       </h2>
       {description && (
-        <p className={'mt-5 whitespace-pre-line'}>{description}</p>
+        <p style={{ textAlign: 'justify' }} className={'mt-5 whitespace-pre-line'}>{description}</p>
       )}
     </div>
   );
