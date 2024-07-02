@@ -24,8 +24,10 @@ export function ProjectCard({
     >
       <span
         className={cn(
-          'absolute inset-0 z-[2] bg-gradient-1 from-primary/0 to-primary transition-all duration-500 ease-in-out transform perspective-400px rotateX-0 scale-y-1.0',
-          'group-hover:perspective-400px rotateX-0 scale-y-1.0 transition-delay-0.1s transition-all duration-700 ease'
+          // Normal
+          'absolute inset-0 z-[2] bg-gradient-1 from-primary/0 to-primary [transition:all_500ms_ease] md:[transform:perspective(400px)_rotateX(90deg)_scaleY(0.5)]',
+          // Hover
+          'md:group-hover/portfolio:[transform:perspective(400px)_rotateX(0deg)_scaleY(1.0)] md:group-hover/portfolio:[transition-delay:.1s] md:group-hover/portfolio:[transition:all_.7s_ease]'
         )}
       ></span>
       <Image
