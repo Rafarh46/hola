@@ -4,9 +4,8 @@ import { Container } from '@/src/components/container';
 import { TextInput } from '@/src/components/inputs/text-input';
 import { cn } from '@/src/utils/shadcn';
 import Image from 'next/image';
-import { contactUsFormSubmit } from '@/src/sections/contact/v2/form/server/contact-us-form-submit'; // Asegúrate de importar la función adecuadamente
 
-export interface CtaSectionProps extends SectionProps {
+export interface CtaSectionProps {
   title: string;
 }
 
@@ -14,30 +13,8 @@ const ctaSectionData: CtaSectionProps = {
   title: '¿Quieres recibir información?',
 };
 
-export function CtaSection({ className }: CtaSectionProps) {
+export function CtaSection({ className }: SectionProps) {
   const { title } = ctaSectionData;
-
-  // Función para manejar el envío del formulario
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault(); // Evita que el formulario se envíe automáticamente
-
-    // Aquí puedes agregar lógica adicional de validación si es necesario
-
-    // Ejemplo: obtén los valores del formulario
-    const formData = new FormData(event.currentTarget);
-    const email = formData.get('email') as string;
-
-    // Llama a la función para enviar el correo electrónico
-    const response = await contactUsFormSubmit({ email });
-
-    // Aquí puedes manejar la respuesta, por ejemplo, mostrar un mensaje de éxito o error
-    if (response.isSuccess) {
-      alert('Correo enviado exitosamente!');
-    } else {
-      alert('Hubo un problema al enviar el correo. Por favor, inténtalo de nuevo más tarde.');
-    }
-  };
-
   return (
     <section className={cn(className)}>
       <Container>
@@ -46,13 +23,8 @@ export function CtaSection({ className }: CtaSectionProps) {
             <h2 className="mx-auto max-w-[490px] font-secondary text-xl font-bold capitalize leading-[1.25] text-white md:text-2xl">
               {title}
             </h2>
-            <form
-              onSubmit={handleSubmit} // Manejador de evento para enviar el formulario
-              className="mt-6 flex flex-col items-center justify-center gap-[.625rem] md:mt-[1.875rem] md:flex-row"
-            >
+            <form className="mt-6 flex flex-col items-center justify-center gap-[.625rem] md:mt-[1.875rem] md:flex-row">
               <TextInput
-                name="email"
-                type="email"
                 placeholder="Ingresa Email"
                 className="border-white border-opacity-60 text-white placeholder:text-white focus:border-white dark:border-white dark:border-opacity-60 dark:text-white dark:placeholder:text-white"
               />
