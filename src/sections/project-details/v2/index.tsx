@@ -104,8 +104,8 @@ export function ProjectDetailsSection() {
             </div>
           </div>
 
-          <p>
-            En SDIH, nos especializamos en el diseño, instalación y
+          <p style={{ textAlign: 'justify' }}>
+            En SDI'H, nos especializamos en el diseño, instalación y
             mantenimiento de sistemas hidráulicos integrales para la protección
             contra incendios. Nuestros servicios abarcan desde la instalación de
             bombas de agua de alta capacidad hasta la configuración de redes de
@@ -117,13 +117,13 @@ export function ProjectDetailsSection() {
             emergencia, cumpliendo con las normativas nacionales e
             internacionales para asegurar la máxima protección y seguridad.
           </p>
-          <p>
+          <p style={{ textAlign: 'justify' }}>
             Nuestro equipo de ingenieros y técnicos altamente capacitados se
             encarga de cada detalle del sistema hidráulico, desde el diseño
             inicial hasta la instalación y puesta en marcha. Realizamos pruebas
             rigurosas de eficiencia y mantenemos los sistemas de manera
             preventiva para asegurar su operatividad óptima en todo momento. Con
-            más de 14 años de experiencia en el sector, hemos trabajado con
+            más de 17 años de experiencia en el sector, hemos trabajado con
             diversos sectores industriales, comerciales y residenciales,
             proporcionando soluciones personalizadas y confiables que se adaptan
             a las necesidades específicas de cada cliente y proyecto.
@@ -138,7 +138,7 @@ export function ProjectDetailsSection() {
                   Bombas de agua
                 </h3>
               </div>
-              <p>
+              <p style={{ textAlign: 'justify' }}>
                 En SDIH, ofrecemos bombas de agua robustas y eficientes
                 diseñadas específicamente para sistemas contra incendios. Estas
                 bombas son fundamentales para garantizar un suministro constante
@@ -164,7 +164,7 @@ export function ProjectDetailsSection() {
                   Red de Hidrantes
                 </h3>
               </div>
-              <p>
+              <p style={{ textAlign: 'justify' }}>
                 Implementamos redes de hidrantes estratégicamente distribuidos
                 en instalaciones comerciales, industriales y residenciales para
                 facilitar el acceso rápido a agua en caso de incendio. Nuestras
@@ -189,7 +189,7 @@ export function ProjectDetailsSection() {
                   Rociadores y Sistemas de diluvio:
                 </h3>
               </div>
-              <p>
+              <p style={{ textAlign: 'justify' }}>
                 Ofrecemos sistemas avanzados tanto de rociadores automáticos
                 como de diluvio para la supresión efectiva de incendios.
                 Nuestros rociadores automáticos son esenciales para la detección
