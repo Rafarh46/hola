@@ -7,7 +7,7 @@ import { ContactUsSchemaType } from '..';
 export async function contactUsFormSubmit(
   values: ContactUsSchemaType
 ): Promise<ServerActionResponse<boolean>> {
-  const { name, email, subject, message } = values;
+  const {email} = values;
 
   try {
     const transporter = nodemailer.createTransport({
@@ -21,7 +21,6 @@ export async function contactUsFormSubmit(
     const mailOptions = {
       from: email,
       to: process.env.CONTACT_MAIL_ADDRESS,
-      subject: subject,
       html: `
         <h3 style="margin-bottom:8px">Name:</h3>
         <p style="margin:0">${name}</p>
@@ -30,7 +29,7 @@ export async function contactUsFormSubmit(
         <p style="margin:0">${email}</p>
         <br/>
         <h3 style="margin:0; margin-bottom:8px">Body:</h3>
-        <p style="margin-top:0">${message}</p>
+        
       `,
     };
 
@@ -39,7 +38,7 @@ export async function contactUsFormSubmit(
     return {
       isSuccess: true,
       data: true,
-      message: 'Thanks for getting in touch',
+      message: 'Gracias por Suscribirte',
     };
   } catch (error) {
     console.error(error);
@@ -47,7 +46,7 @@ export async function contactUsFormSubmit(
     return {
       isSuccess: false,
       data: null,
-      message: 'Internal Server Error',
+      message: 'Error',
     };
   }
 }
