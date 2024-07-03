@@ -23,7 +23,7 @@ export const contactSectionData: ContactSectionProps = {
         '¡Conéctate con nosotros! Estamos aquí para responder preguntas, atender sugerencias y colaborar en proyectos. ¡Esperamos ayudarte pronto! ',
     },
     location: `83 De Las Guitarras, Hermosillo, Sonora`,
-    mail: 'ijmnhhasan000@yourmail.com',
+    mail: 'sergiogtz@sdih.com.mx',
     phone: '6623380627',
   },
 };
