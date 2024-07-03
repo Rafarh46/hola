@@ -32,7 +32,7 @@ export const footerSectionData: FooterSectionProps = {
   columnTwo: {
     title: 'Dirección',
     location: '83 De Las Guitarras, Hermosillo, Sonora ',
-    mails: ['debbie.baker@example.com', 'nevaeh.simm@example.com'],
+    mails: ['sergiogtz@sdih.com.mx'],
     phoneNumbers: ['6623380627'],
   },
   columnThree: {title: '',
