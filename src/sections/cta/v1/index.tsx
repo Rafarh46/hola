@@ -38,7 +38,7 @@ export function CtaSection({ className }: SectionProps) {
                   'after:bg-white hover:text-accent-700 dark:hover:text-accent-700'
                 )}
               >
-                <CustomLink href="/">Home Page</CustomLink>
+                <CustomLink href="mailto:sergiogtz@sdih.com.mx">Suscribete</CustomLink>
           
               </Button>
             </form>
