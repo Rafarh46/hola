@@ -31,15 +31,15 @@ export function CtaSection({ className }: SectionProps) {
               />
 
             
-              <Button asChild
+              <Button 
                 className={cn(
                   'min-w-[190px] flex-none text-white max-md:w-full',
                   'bg-primary-light',
                   'after:bg-white hover:text-accent-700 dark:hover:text-accent-700'
                 )}
               >
-                <CustomLink href="mailto:sergiogtz@sdih.com.mx"></CustomLink>
-                <span>SUSCRIBETE</span>
+                <CustomLink href="/">Home Page</CustomLink>
+          
               </Button>
             </form>
           </div>
