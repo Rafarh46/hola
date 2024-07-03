@@ -4,6 +4,7 @@ import { Container } from '@/src/components/container';
 import { TextInput } from '@/src/components/inputs/text-input';
 import { cn } from '@/src/utils/shadcn';
 import Image from 'next/image';
+import { CustomLink } from '@/src/components/custom-link';
 
 export interface CtaSectionProps {
   title: string;
@@ -28,14 +29,16 @@ export function CtaSection({ className }: SectionProps) {
                 placeholder="Ingresa Email"
                 className="border-white border-opacity-60 text-white placeholder:text-white focus:border-white dark:border-white dark:border-opacity-60 dark:text-white dark:placeholder:text-white"
               />
-              <Button
-                type="submit"
+
+            
+              <Button asChild
                 className={cn(
                   'min-w-[190px] flex-none text-white max-md:w-full',
                   'bg-primary-light',
                   'after:bg-white hover:text-accent-700 dark:hover:text-accent-700'
                 )}
               >
+                <CustomLink href="mailto:sergiogtz@sdih.com.mx"></CustomLink>
                 <span>SUSCRIBETE</span>
               </Button>
             </form>
