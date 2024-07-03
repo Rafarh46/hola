@@ -65,7 +65,7 @@ export const footerSectionData: FooterSectionProps = {
     title: 'Contáctanos',
     phoneNumber: '6623380627',
     mail: 'sergiogtz@sdih.com.mx',
-    location: '83 De Las Guitarras, Hermosillo, Sonora',
+    location: 'Hermosillo, Sonora',
   },
   footerBottom: {
     copyrightText: '© SDIH 2024 | All Rights Reserved',

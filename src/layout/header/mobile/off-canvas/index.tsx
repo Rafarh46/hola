@@ -55,7 +55,7 @@ interface IOffCanvas {
 
 const offCanvasProps: IOffCanvas = {
   contactInfo: {
-    location: ' 83 De Las Guitarras, Hermosillo, Sonora',
+    location: 'Hermosillo, Sonora',
     phoneNumber: '6623380627',
     mail: 'sergiogtz@sdih.com.mx',
   },

@@ -5,7 +5,7 @@ export const headerData: HeaderProps = {
   contactInfo: {
     phone: '6623380627',
     mail: 'sergiogtz@sdih.com.mx',
-    address: '83 De Las Guitarras, Hermosillo, Sonora',
+    address: 'Hermosillo, Sonora',
   },
   ctaBtn: {
     href: '/contact',

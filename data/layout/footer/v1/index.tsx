@@ -31,7 +31,7 @@ export const footerSectionData: FooterSectionProps = {
   },
   columnTwo: {
     title: 'Dirección',
-    location: '83 De Las Guitarras, Hermosillo, Sonora ',
+    location: 'Hermosillo, Sonora ',
     mails: ['sergiogtz@sdih.com.mx'],
     phoneNumbers: ['6623380627'],
   },
